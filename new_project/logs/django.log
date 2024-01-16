@@ -1,0 +1,44 @@
+INFO	2024-01-16 10:25:38,422	module: autoreload          	process: 99884	thread: 140085437480960	message: Watching for file changes with StatReloader
+INFO	2024-01-16 10:25:43,840	module: views               	process: 99884	thread: 140085387757120	message: Function hundred was called
+INFO	2024-01-16 10:25:43,840	module: views               	process: 99884	thread: 140085387757120	message: Function hundred returns 95
+INFO	2024-01-16 10:25:43,841	module: basehttp            	process: 99884	thread: 140085387757120	message: "GET /first_sem/hundred/ HTTP/1.1" 200 35
+WARNING	2024-01-16 10:25:43,930	module: log                 	process: 99884	thread: 140085387757120	message: Not Found: /favicon.ico
+WARNING	2024-01-16 10:25:43,930	module: basehttp            	process: 99884	thread: 140085387757120	message: "GET /favicon.ico HTTP/1.1" 404 2224
+WARNING	2024-01-16 10:25:48,713	module: log                 	process: 99884	thread: 140085387757120	message: Not Found: /first_sem/main/
+WARNING	2024-01-16 10:25:48,713	module: basehttp            	process: 99884	thread: 140085387757120	message: "GET /first_sem/main/ HTTP/1.1" 404 3012
+INFO	2024-01-16 10:28:28,539	module: autoreload          	process: 99884	thread: 140085437480960	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/first_sem/urls.py changed, reloading.
+INFO	2024-01-16 10:28:28,843	module: autoreload          	process: 121543	thread: 140455156105216	message: Watching for file changes with StatReloader
+INFO	2024-01-16 10:28:32,958	module: views               	process: 121543	thread: 140455106328128	message: Function main was called
+INFO	2024-01-16 10:28:32,961	module: basehttp            	process: 121543	thread: 140455106328128	message: "GET /first_sem/main/ HTTP/1.1" 200 9
+INFO	2024-01-16 10:28:34,001	module: views               	process: 121543	thread: 140455106328128	message: Function main was called
+INFO	2024-01-16 10:28:34,002	module: basehttp            	process: 121543	thread: 140455106328128	message: "GET /first_sem/main/ HTTP/1.1" 200 9
+INFO	2024-01-16 10:28:46,907	module: views               	process: 121543	thread: 140455106328128	message: Function about_me was called
+INFO	2024-01-16 10:28:46,907	module: basehttp            	process: 121543	thread: 140455106328128	message: "GET /first_sem/about_me/ HTTP/1.1" 200 13
+INFO	2024-01-16 10:38:32,497	module: autoreload          	process: 121543	thread: 140455156105216	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/first_sem/views.py changed, reloading.
+INFO	2024-01-16 10:38:32,776	module: autoreload          	process: 190524	thread: 140186375221248	message: Watching for file changes with StatReloader
+INFO	2024-01-16 10:38:41,503	module: views               	process: 190524	thread: 140186256143936	message: Function main was called
+INFO	2024-01-16 10:38:41,507	module: basehttp            	process: 190524	thread: 140186256143936	message: "GET /first_sem/main/ HTTP/1.1" 200 213
+INFO	2024-01-16 10:39:40,781	module: autoreload          	process: 190524	thread: 140186375221248	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/first_sem/views.py changed, reloading.
+INFO	2024-01-16 10:39:41,069	module: autoreload          	process: 200155	thread: 139695255330816	message: Watching for file changes with StatReloader
+INFO	2024-01-16 10:39:46,446	module: views               	process: 200155	thread: 139695205582400	message: Function main was called
+INFO	2024-01-16 10:39:46,447	module: basehttp            	process: 200155	thread: 139695205582400	message: "GET /first_sem/main/ HTTP/1.1" 200 213
+INFO	2024-01-16 10:39:53,613	module: views               	process: 200155	thread: 139695205582400	message: Function about_me was called
+INFO	2024-01-16 10:39:53,613	module: basehttp            	process: 200155	thread: 139695205582400	message: "GET /first_sem/about_me/ HTTP/1.1" 200 206
+INFO	2024-01-16 10:41:21,430	module: autoreload          	process: 200155	thread: 139695255330816	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/first_sem/urls.py changed, reloading.
+INFO	2024-01-16 10:41:21,715	module: autoreload          	process: 209841	thread: 140464619188224	message: Watching for file changes with StatReloader
+WARNING	2024-01-16 10:41:28,376	module: log                 	process: 209841	thread: 140464569419328	message: Not Found: /first_sem/about_me/
+WARNING	2024-01-16 10:41:28,377	module: basehttp            	process: 209841	thread: 140464569419328	message: "GET /first_sem/about_me/ HTTP/1.1" 404 3381
+WARNING	2024-01-16 10:41:29,270	module: log                 	process: 209841	thread: 140464569419328	message: Not Found: /first_sem/about_me/
+WARNING	2024-01-16 10:41:29,270	module: basehttp            	process: 209841	thread: 140464569419328	message: "GET /first_sem/about_me/ HTTP/1.1" 404 3381
+INFO	2024-01-16 10:41:37,098	module: autoreload          	process: 209841	thread: 140464619188224	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/first_sem/urls.py changed, reloading.
+INFO	2024-01-16 10:41:37,363	module: autoreload          	process: 212248	thread: 140331442548736	message: Watching for file changes with StatReloader
+INFO	2024-01-16 10:41:40,773	module: views               	process: 212248	thread: 140331392808512	message: Function about_me was called
+INFO	2024-01-16 10:41:40,775	module: basehttp            	process: 212248	thread: 140331392808512	message: "GET /first_sem/about_me/ HTTP/1.1" 200 206
+INFO	2024-01-16 10:42:46,419	module: autoreload          	process: 212248	thread: 140331442548736	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/first_sem/urls.py changed, reloading.
+INFO	2024-01-16 10:42:46,692	module: autoreload          	process: 219509	thread: 140611187748864	message: Watching for file changes with StatReloader
+WARNING	2024-01-16 10:42:52,551	module: log                 	process: 219509	thread: 140611138000448	message: Not Found: /first_sem/about_me/
+WARNING	2024-01-16 10:42:52,552	module: basehttp            	process: 219509	thread: 140611138000448	message: "GET /first_sem/about_me/ HTTP/1.1" 404 3381
+INFO	2024-01-16 10:44:28,027	module: autoreload          	process: 219509	thread: 140611187748864	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/first_sem/urls.py changed, reloading.
+INFO	2024-01-16 10:44:28,311	module: autoreload          	process: 231565	thread: 140124610605056	message: Watching for file changes with StatReloader
+INFO	2024-01-16 10:44:32,199	module: views               	process: 231565	thread: 140124560987712	message: Function about_me was called
+INFO	2024-01-16 10:44:32,200	module: basehttp            	process: 231565	thread: 140124560987712	message: "GET /first_sem/about_me/ HTTP/1.1" 200 206
