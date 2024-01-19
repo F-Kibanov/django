@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'first_sem',
+    'second_sem',
 ]
 
 MIDDLEWARE = [
@@ -147,6 +148,11 @@ LOGGING = {
             'level': 'INFO',
         },
         'first_sem': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'second_sem': {
             'handlers': ['console', 'file'],
             'level': 'INFO',
             'propagate': True,
