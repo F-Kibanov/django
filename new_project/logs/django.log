@@ -42,3 +42,351 @@ INFO	2024-01-16 10:44:28,027	module: autoreload          	process: 219509	thread
 INFO	2024-01-16 10:44:28,311	module: autoreload          	process: 231565	thread: 140124610605056	message: Watching for file changes with StatReloader
 INFO	2024-01-16 10:44:32,199	module: views               	process: 231565	thread: 140124560987712	message: Function about_me was called
 INFO	2024-01-16 10:44:32,200	module: basehttp            	process: 231565	thread: 140124560987712	message: "GET /first_sem/about_me/ HTTP/1.1" 200 206
+INFO	2024-01-16 22:28:17,189	module: autoreload          	process: 2957097	thread: 140304816697344	message: Watching for file changes with StatReloader
+INFO	2024-01-16 22:29:14,927	module: autoreload          	process: 2957097	thread: 140304816697344	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-16 22:29:15,210	module: autoreload          	process: 2957194	thread: 139759900557312	message: Watching for file changes with StatReloader
+INFO	2024-01-16 22:29:23,353	module: autoreload          	process: 2957210	thread: 140683774586880	message: Watching for file changes with StatReloader
+WARNING	2024-01-16 22:29:40,345	module: log                 	process: 2957210	thread: 140683724985920	message: Not Found: /prefix/
+WARNING	2024-01-16 22:29:40,346	module: basehttp            	process: 2957210	thread: 140683724985920	message: "GET /prefix/ HTTP/1.1" 404 2212
+WARNING	2024-01-16 22:29:45,296	module: log                 	process: 2957210	thread: 140683724985920	message: Not Found: /coin/
+WARNING	2024-01-16 22:29:45,297	module: basehttp            	process: 2957210	thread: 140683724985920	message: "GET /coin/ HTTP/1.1" 404 2206
+WARNING	2024-01-16 22:30:44,872	module: log                 	process: 2957210	thread: 140683724985920	message: Not Found: /coin/
+WARNING	2024-01-16 22:30:44,873	module: basehttp            	process: 2957210	thread: 140683724985920	message: "GET /coin/ HTTP/1.1" 404 2206
+WARNING	2024-01-16 22:31:00,751	module: log                 	process: 2957210	thread: 140683724985920	message: Not Found: /second_sem/
+WARNING	2024-01-16 22:31:00,751	module: basehttp            	process: 2957210	thread: 140683724985920	message: "GET /second_sem/ HTTP/1.1" 404 2224
+INFO	2024-01-16 22:33:50,796	module: autoreload          	process: 2957210	thread: 140683774586880	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/urls.py changed, reloading.
+INFO	2024-01-16 22:33:51,082	module: autoreload          	process: 2957726	thread: 140444589629440	message: Watching for file changes with StatReloader
+INFO	2024-01-16 22:34:43,178	module: autoreload          	process: 2957900	thread: 140417491378176	message: Watching for file changes with StatReloader
+INFO	2024-01-16 22:36:52,807	module: autoreload          	process: 2957900	thread: 140417491378176	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/urls.py changed, reloading.
+INFO	2024-01-16 22:36:53,069	module: autoreload          	process: 2958159	thread: 139843967377408	message: Watching for file changes with StatReloader
+INFO	2024-01-16 22:36:56,865	module: autoreload          	process: 2958168	thread: 139906518458368	message: Watching for file changes with StatReloader
+WARNING	2024-01-16 22:37:07,005	module: log                 	process: 2958168	thread: 139906468714048	message: Not Found: /coin
+WARNING	2024-01-16 22:37:07,006	module: basehttp            	process: 2958168	thread: 139906468714048	message: "GET /coin HTTP/1.1" 404 2313
+WARNING	2024-01-16 22:37:18,620	module: log                 	process: 2958168	thread: 139906468714048	message: Not Found: /second_sem/
+WARNING	2024-01-16 22:37:18,621	module: basehttp            	process: 2958168	thread: 139906468714048	message: "GET /second_sem/ HTTP/1.1" 404 2400
+INFO	2024-01-16 22:37:26,282	module: basehttp            	process: 2958168	thread: 139906468714048	message: "GET /second_sem/coin HTTP/1.1" 301 0
+INFO	2024-01-16 22:37:26,433	module: basehttp            	process: 2958168	thread: 139906460321344	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-16 22:37:36,743	module: basehttp            	process: 2958168	thread: 139906460321344	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-16 22:37:38,670	module: basehttp            	process: 2958168	thread: 139906460321344	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-16 22:37:40,169	module: basehttp            	process: 2958168	thread: 139906460321344	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-16 22:38:16,048	module: autoreload          	process: 2958168	thread: 139906518458368	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/urls.py changed, reloading.
+INFO	2024-01-16 22:38:16,315	module: autoreload          	process: 2958360	thread: 140018088767488	message: Watching for file changes with StatReloader
+WARNING	2024-01-16 22:38:20,500	module: log                 	process: 2958360	thread: 140018039064128	message: Not Found: /second_sem/coin/
+WARNING	2024-01-16 22:38:20,500	module: basehttp            	process: 2958360	thread: 140018039064128	message: "GET /second_sem/coin/ HTTP/1.1" 404 2414
+INFO	2024-01-16 22:38:35,724	module: autoreload          	process: 2958360	thread: 140018088767488	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/urls.py changed, reloading.
+INFO	2024-01-16 22:38:36,023	module: autoreload          	process: 2958406	thread: 140443278381056	message: Watching for file changes with StatReloader
+INFO	2024-01-16 22:48:29,965	module: autoreload          	process: 2958406	thread: 140443278381056	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-16 22:48:30,319	module: autoreload          	process: 2959471	thread: 140348762865664	message: Watching for file changes with StatReloader
+INFO	2024-01-16 22:49:31,151	module: autoreload          	process: 2959471	thread: 140348762865664	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-16 22:49:31,451	module: autoreload          	process: 2959591	thread: 140216678846464	message: Watching for file changes with StatReloader
+INFO	2024-01-16 22:52:33,225	module: autoreload          	process: 2959591	thread: 140216678846464	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-16 22:52:33,511	module: autoreload          	process: 2959904	thread: 139743454081024	message: Watching for file changes with StatReloader
+INFO	2024-01-16 22:52:41,249	module: basehttp            	process: 2959904	thread: 139743336592960	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-16 22:52:53,296	module: basehttp            	process: 2959904	thread: 139743336592960	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-16 22:53:50,849	module: autoreload          	process: 2959904	thread: 139743454081024	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-16 22:53:51,148	module: autoreload          	process: 2960061	thread: 139956802199552	message: Watching for file changes with StatReloader
+INFO	2024-01-17 20:49:35,085	module: autoreload          	process: 186877	thread: 140417355849728	message: Watching for file changes with StatReloader
+WARNING	2024-01-17 20:49:49,401	module: log                 	process: 186877	thread: 140417306211904	message: Not Found: /favicon.ico
+WARNING	2024-01-17 20:49:49,402	module: basehttp            	process: 186877	thread: 140417306211904	message: "GET /favicon.ico HTTP/1.1" 404 2334
+INFO	2024-01-17 20:49:54,269	module: basehttp            	process: 186877	thread: 140417306211904	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-17 20:49:58,268	module: basehttp            	process: 186877	thread: 140417306211904	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-17 20:50:00,804	module: basehttp            	process: 186877	thread: 140417306211904	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-17 20:52:08,307	module: autoreload          	process: 186877	thread: 140417355849728	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 20:52:08,615	module: autoreload          	process: 217217	thread: 139955975749632	message: Watching for file changes with StatReloader
+INFO	2024-01-17 20:52:23,901	module: autoreload          	process: 217217	thread: 139955975749632	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 20:52:24,199	module: autoreload          	process: 219388	thread: 140674562707456	message: Watching for file changes with StatReloader
+INFO	2024-01-17 20:53:17,335	module: autoreload          	process: 219388	thread: 140674562707456	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 20:53:17,621	module: autoreload          	process: 225780	thread: 140620657905664	message: Watching for file changes with StatReloader
+INFO	2024-01-17 20:55:25,895	module: autoreload          	process: 225780	thread: 140620657905664	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 20:55:26,178	module: autoreload          	process: 238580	thread: 140452228091904	message: Watching for file changes with StatReloader
+INFO	2024-01-17 20:56:00,666	module: autoreload          	process: 238580	thread: 140452228091904	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 20:56:00,950	module: autoreload          	process: 240658	thread: 140403388948480	message: Watching for file changes with StatReloader
+INFO	2024-01-17 20:57:04,761	module: autoreload          	process: 240658	thread: 140403388948480	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 20:57:05,156	module: autoreload          	process: 246585	thread: 140413481586688	message: Watching for file changes with StatReloader
+INFO	2024-01-17 20:57:54,771	module: autoreload          	process: 246585	thread: 140413481586688	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 20:57:55,062	module: autoreload          	process: 252088	thread: 140580935753728	message: Watching for file changes with StatReloader
+INFO	2024-01-17 20:59:01,837	module: autoreload          	process: 252088	thread: 140580935753728	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 20:59:02,146	module: autoreload          	process: 256730	thread: 140483099561984	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:06:00,990	module: autoreload          	process: 256730	thread: 140483099561984	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 21:06:01,286	module: autoreload          	process: 263306	thread: 140217252282368	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:06:14,259	module: basehttp            	process: 263306	thread: 140217202677312	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-17 21:06:16,013	module: basehttp            	process: 263306	thread: 140217202677312	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-17 21:06:17,648	module: basehttp            	process: 263306	thread: 140217202677312	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-17 21:06:18,657	module: basehttp            	process: 263306	thread: 140217202677312	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-17 21:06:20,286	module: basehttp            	process: 263306	thread: 140217202677312	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-17 21:08:01,153	module: autoreload          	process: 263306	thread: 140217252282368	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-17 21:08:01,569	module: autoreload          	process: 263540	thread: 140345687769088	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:08:22,829	module: autoreload          	process: 263540	thread: 140345687769088	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-17 21:08:23,134	module: autoreload          	process: 263584	thread: 139906008436736	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:08:35,326	module: autoreload          	process: 263584	thread: 139906008436736	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-17 21:08:35,628	module: autoreload          	process: 263614	thread: 140596193239040	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:09:05,904	module: autoreload          	process: 263614	thread: 140596193239040	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-17 21:09:06,205	module: autoreload          	process: 263686	thread: 140088015192064	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:09:11,101	module: basehttp            	process: 263686	thread: 140087965451840	message: "GET /second_sem/coin/ HTTP/1.1" 200 255
+INFO	2024-01-17 21:09:16,198	module: basehttp            	process: 263686	thread: 140087965451840	message: "GET /second_sem/coin/ HTTP/1.1" 200 255
+INFO	2024-01-17 21:09:19,771	module: basehttp            	process: 263686	thread: 140087957059136	message: "GET /second_sem/coin/ HTTP/1.1" 200 255
+INFO	2024-01-17 21:10:09,089	module: basehttp            	process: 263686	thread: 140087957059136	message: "GET /second_sem/coin/ HTTP/1.1" 200 255
+INFO	2024-01-17 21:10:25,217	module: basehttp            	process: 263686	thread: 140087957059136	message: "GET /second_sem/coin/ HTTP/1.1" 200 255
+INFO	2024-01-17 21:12:16,380	module: autoreload          	process: 263686	thread: 140088015192064	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-17 21:12:16,662	module: autoreload          	process: 264070	thread: 139686608191488	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:13:47,278	module: autoreload          	process: 264070	thread: 139686608191488	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-17 21:13:47,568	module: autoreload          	process: 264248	thread: 139872870436864	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:16:04,366	module: autoreload          	process: 264248	thread: 139872870436864	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 21:16:04,670	module: autoreload          	process: 264524	thread: 140239603810304	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:17:17,159	module: autoreload          	process: 264524	thread: 140239603810304	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-17 21:17:17,436	module: autoreload          	process: 264678	thread: 139870765285376	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:17:21,187	module: basehttp            	process: 264678	thread: 139870643156544	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:17:28,026	module: basehttp            	process: 264678	thread: 139870643156544	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:17:31,037	module: basehttp            	process: 264678	thread: 139870643156544	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:17:33,239	module: basehttp            	process: 264678	thread: 139870643156544	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:17:35,053	module: basehttp            	process: 264678	thread: 139870643156544	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:19:44,364	module: autoreload          	process: 264678	thread: 139870765285376	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 21:19:44,691	module: autoreload          	process: 264969	thread: 140439842664448	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:19:45,189	module: basehttp            	process: 264969	thread: 140439725274688	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:19:46,027	module: basehttp            	process: 264969	thread: 140439725274688	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:19:47,057	module: basehttp            	process: 264969	thread: 140439725274688	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:19:58,992	module: basehttp            	process: 264969	thread: 140439725274688	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:26:32,791	module: autoreload          	process: 264969	thread: 140439842664448	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 21:26:33,169	module: autoreload          	process: 265781	thread: 140208518332416	message: Watching for file changes with StatReloader
+ERROR	2024-01-17 21:26:34,419	module: log                 	process: 265781	thread: 140208401020480	message: Internal Server Error: /second_sem/coin/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py", line 17, in coin
+    Coin.coin_static(3)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py", line 20, in coin_static
+    if coin.coin_state == 'head':
+AttributeError: 'Coin' object has no attribute 'coin_state'
+ERROR	2024-01-17 21:26:34,420	module: basehttp            	process: 265781	thread: 140208401020480	message: "GET /second_sem/coin/ HTTP/1.1" 500 71739
+INFO	2024-01-17 21:28:19,896	module: autoreload          	process: 265781	thread: 140208518332416	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-17 21:28:20,179	module: autoreload          	process: 266018	thread: 140655665020928	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:28:25,025	module: basehttp            	process: 266018	thread: 140655547381312	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:28:27,283	module: basehttp            	process: 266018	thread: 140655547381312	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:28:29,709	module: basehttp            	process: 266018	thread: 140655547381312	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:28:31,707	module: basehttp            	process: 266018	thread: 140655547381312	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:28:33,265	module: basehttp            	process: 266018	thread: 140655547381312	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:28:36,812	module: basehttp            	process: 266018	thread: 140655547381312	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:47:51,132	module: autoreload          	process: 266018	thread: 140655665020928	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-17 21:47:51,453	module: autoreload          	process: 269322	thread: 139970290864128	message: Watching for file changes with StatReloader
+INFO	2024-01-17 21:47:54,932	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:47:56,720	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:47:58,279	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:47:59,838	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:48:02,900	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:48:05,594	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:48:08,160	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:48:11,339	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:48:14,176	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:48:17,360	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-17 21:48:19,489	module: basehttp            	process: 269322	thread: 139970241250880	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 10:25:34,082	module: autoreload          	process: 157657	thread: 139622628376576	message: Watching for file changes with StatReloader
+WARNING	2024-01-18 10:25:46,883	module: log                 	process: 157657	thread: 139622578619968	message: Not Found: /favicon.ico
+WARNING	2024-01-18 10:25:46,885	module: basehttp            	process: 157657	thread: 139622578619968	message: "GET /favicon.ico HTTP/1.1" 404 2334
+INFO	2024-01-18 10:25:48,506	module: basehttp            	process: 157657	thread: 139622578619968	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 10:25:55,520	module: basehttp            	process: 157657	thread: 139622578619968	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 10:31:04,101	module: autoreload          	process: 157657	thread: 139622628376576	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-18 10:31:04,365	module: autoreload          	process: 195707	thread: 139874381127680	message: Watching for file changes with StatReloader
+INFO	2024-01-18 10:31:08,139	module: basehttp            	process: 195707	thread: 139874331428416	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-18 10:31:10,783	module: basehttp            	process: 195707	thread: 139874331428416	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-18 10:33:53,459	module: autoreload          	process: 195707	thread: 139874381127680	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/models.py changed, reloading.
+INFO	2024-01-18 10:33:53,804	module: autoreload          	process: 214610	thread: 140530135506944	message: Watching for file changes with StatReloader
+INFO	2024-01-18 10:33:54,449	module: basehttp            	process: 214610	thread: 140530085803584	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+INFO	2024-01-18 10:33:56,019	module: basehttp            	process: 214610	thread: 140530085803584	message: "GET /second_sem/coin/ HTTP/1.1" 200 53
+WARNING	2024-01-18 10:36:50,889	module: log                 	process: 214610	thread: 140530069018176	message: Not Found: /
+WARNING	2024-01-18 10:36:50,890	module: basehttp            	process: 214610	thread: 140530069018176	message: "GET / HTTP/1.1" 404 2283
+INFO	2024-01-18 13:47:25,200	module: autoreload          	process: 134007	thread: 140696597262336	message: Watching for file changes with StatReloader
+WARNING	2024-01-18 13:47:40,286	module: log                 	process: 134007	thread: 140696547661376	message: Not Found: /favicon.ico
+WARNING	2024-01-18 13:47:40,287	module: basehttp            	process: 134007	thread: 140696547661376	message: "GET /favicon.ico HTTP/1.1" 404 2334
+WARNING	2024-01-18 13:48:22,191	module: log                 	process: 134007	thread: 140696539268672	message: Not Found: /
+WARNING	2024-01-18 13:48:22,192	module: basehttp            	process: 134007	thread: 140696539268672	message: "GET / HTTP/1.1" 404 2283
+ERROR	2024-01-18 13:48:38,292	module: log                 	process: 134007	thread: 140696539268672	message: Internal Server Error: /second_sem/coin/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py", line 17, in coin
+    return HttpResponse(f'{coin_state} ,{coin_dict}')
+NameError: name 'coin_dict' is not defined
+ERROR	2024-01-18 13:48:38,292	module: basehttp            	process: 134007	thread: 140696539268672	message: "GET /second_sem/coin/ HTTP/1.1" 500 66592
+WARNING	2024-01-18 13:50:49,371	module: log                 	process: 134007	thread: 140696539268672	message: Not Found: /
+WARNING	2024-01-18 13:50:49,371	module: basehttp            	process: 134007	thread: 140696539268672	message: "GET / HTTP/1.1" 404 2283
+WARNING	2024-01-18 13:50:49,499	module: log                 	process: 134007	thread: 140696539268672	message: Not Found: /favicon.ico
+WARNING	2024-01-18 13:50:49,499	module: basehttp            	process: 134007	thread: 140696539268672	message: "GET /favicon.ico HTTP/1.1" 404 2334
+ERROR	2024-01-18 13:51:06,144	module: log                 	process: 134007	thread: 140696539268672	message: Internal Server Error: /second_sem/coin/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py", line 17, in coin
+    return HttpResponse(f'{coin_state} ,{coin_dict}')
+NameError: name 'coin_dict' is not defined
+ERROR	2024-01-18 13:51:06,145	module: basehttp            	process: 134007	thread: 140696539268672	message: "GET /second_sem/coin/ HTTP/1.1" 500 66592
+INFO	2024-01-18 13:52:49,511	module: autoreload          	process: 134007	thread: 140696597262336	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-18 13:52:49,799	module: autoreload          	process: 171226	thread: 140529123241984	message: Watching for file changes with StatReloader
+INFO	2024-01-18 13:52:54,139	module: basehttp            	process: 171226	thread: 140529073501760	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:52:57,826	module: basehttp            	process: 171226	thread: 140529073501760	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:53:01,209	module: basehttp            	process: 171226	thread: 140529073501760	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:53:02,514	module: basehttp            	process: 171226	thread: 140529073501760	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:53:05,115	module: basehttp            	process: 171226	thread: 140529073501760	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:53:06,779	module: basehttp            	process: 171226	thread: 140529073501760	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:53:07,518	module: basehttp            	process: 171226	thread: 140529073501760	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:54:11,965	module: autoreload          	process: 171226	thread: 140529123241984	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-18 13:54:12,259	module: autoreload          	process: 180382	thread: 140023219113984	message: Watching for file changes with StatReloader
+INFO	2024-01-18 13:58:09,227	module: autoreload          	process: 180382	thread: 140023219113984	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-18 13:58:09,497	module: autoreload          	process: 205574	thread: 140364849475584	message: Watching for file changes with StatReloader
+INFO	2024-01-18 13:58:13,921	module: basehttp            	process: 205574	thread: 140364799817280	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:58:15,666	module: basehttp            	process: 205574	thread: 140364799817280	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:58:16,395	module: basehttp            	process: 205574	thread: 140364799817280	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:58:17,649	module: basehttp            	process: 205574	thread: 140364799817280	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:58:18,393	module: basehttp            	process: 205574	thread: 140364799817280	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-18 13:58:19,217	module: basehttp            	process: 205574	thread: 140364799817280	message: "GET /second_sem/coin/ HTTP/1.1" 200 323
+INFO	2024-01-19 12:13:12,324	module: autoreload          	process: 134336	thread: 139844933562368	message: Watching for file changes with StatReloader
+WARNING	2024-01-19 12:13:26,599	module: log                 	process: 134336	thread: 139844883924544	message: Not Found: /favicon.ico
+WARNING	2024-01-19 12:13:26,600	module: basehttp            	process: 134336	thread: 139844883924544	message: "GET /favicon.ico HTTP/1.1" 404 2334
+INFO	2024-01-19 12:13:35,351	module: basehttp            	process: 134336	thread: 139844883924544	message: "GET /second_sem/coin/ HTTP/1.1" 200 274
+INFO	2024-01-19 12:13:41,874	module: basehttp            	process: 134336	thread: 139844883924544	message: "GET /second_sem/coin/ HTTP/1.1" 200 274
+INFO	2024-01-19 12:13:43,330	module: basehttp            	process: 134336	thread: 139844883924544	message: "GET /second_sem/coin/ HTTP/1.1" 200 274
+INFO	2024-01-19 12:13:46,761	module: basehttp            	process: 134336	thread: 139844883924544	message: "GET /second_sem/coin/ HTTP/1.1" 200 274
+INFO	2024-01-19 12:13:49,989	module: basehttp            	process: 134336	thread: 139844883924544	message: "GET /second_sem/coin/ HTTP/1.1" 200 274
+INFO	2024-01-19 12:13:52,472	module: basehttp            	process: 134336	thread: 139844883924544	message: "GET /second_sem/coin/ HTTP/1.1" 200 274
+INFO	2024-01-19 14:45:03,986	module: autoreload          	process: 1146907	thread: 139638604836864	message: Watching for file changes with StatReloader
+INFO	2024-01-19 14:45:11,189	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /second_sem/coin/ HTTP/1.1" 200 274
+INFO	2024-01-19 14:45:13,280	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /second_sem/coin/ HTTP/1.1" 200 274
+INFO	2024-01-19 14:45:13,997	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /second_sem/coin/ HTTP/1.1" 200 274
+INFO	2024-01-19 14:45:14,968	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /second_sem/coin/ HTTP/1.1" 200 274
+WARNING	2024-01-19 14:45:18,602	module: log                 	process: 1146907	thread: 139638555031104	message: Not Found: /second_sem/
+WARNING	2024-01-19 14:45:18,602	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /second_sem/ HTTP/1.1" 404 2400
+WARNING	2024-01-19 14:45:31,469	module: log                 	process: 1146907	thread: 139638555031104	message: Not Found: /first_sem/
+WARNING	2024-01-19 14:45:31,470	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /first_sem/ HTTP/1.1" 404 3465
+INFO	2024-01-19 14:45:43,396	module: views               	process: 1146907	thread: 139638555031104	message: Function about_me was called
+INFO	2024-01-19 14:45:43,398	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /first_sem/about_me/ HTTP/1.1" 200 206
+INFO	2024-01-19 14:45:52,071	module: views               	process: 1146907	thread: 139638555031104	message: Function dice was called
+INFO	2024-01-19 14:45:52,072	module: views               	process: 1146907	thread: 139638555031104	message: Function dice returns 5
+INFO	2024-01-19 14:45:52,073	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /first_sem/dice/ HTTP/1.1" 200 12
+INFO	2024-01-19 14:45:56,981	module: views               	process: 1146907	thread: 139638555031104	message: Function dice was called
+INFO	2024-01-19 14:45:56,981	module: views               	process: 1146907	thread: 139638555031104	message: Function dice returns 5
+INFO	2024-01-19 14:45:56,982	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /first_sem/dice/ HTTP/1.1" 200 12
+INFO	2024-01-19 14:45:58,258	module: views               	process: 1146907	thread: 139638555031104	message: Function dice was called
+INFO	2024-01-19 14:45:58,258	module: views               	process: 1146907	thread: 139638555031104	message: Function dice returns 2
+INFO	2024-01-19 14:45:58,260	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /first_sem/dice/ HTTP/1.1" 200 12
+INFO	2024-01-19 14:45:59,031	module: views               	process: 1146907	thread: 139638555031104	message: Function dice was called
+INFO	2024-01-19 14:45:59,032	module: views               	process: 1146907	thread: 139638555031104	message: Function dice returns 2
+INFO	2024-01-19 14:45:59,033	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /first_sem/dice/ HTTP/1.1" 200 12
+INFO	2024-01-19 14:45:59,697	module: views               	process: 1146907	thread: 139638555031104	message: Function dice was called
+INFO	2024-01-19 14:45:59,697	module: views               	process: 1146907	thread: 139638555031104	message: Function dice returns 6
+INFO	2024-01-19 14:45:59,697	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /first_sem/dice/ HTTP/1.1" 200 12
+INFO	2024-01-19 14:46:23,695	module: views               	process: 1146907	thread: 139638555031104	message: Function dice was called
+INFO	2024-01-19 14:46:23,695	module: views               	process: 1146907	thread: 139638555031104	message: Function dice returns 4
+INFO	2024-01-19 14:46:23,696	module: basehttp            	process: 1146907	thread: 139638555031104	message: "GET /first_sem/dice/ HTTP/1.1" 200 12
+INFO	2024-01-19 14:49:28,561	module: autoreload          	process: 1146907	thread: 139638604836864	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 14:49:28,875	module: autoreload          	process: 1174491	thread: 139876277751808	message: Watching for file changes with StatReloader
+INFO	2024-01-19 14:55:34,289	module: autoreload          	process: 1174491	thread: 139876277751808	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 14:55:34,592	module: autoreload          	process: 1215032	thread: 140571081490432	message: Watching for file changes with StatReloader
+INFO	2024-01-19 14:56:41,575	module: autoreload          	process: 1215032	thread: 140571081490432	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 14:56:41,847	module: autoreload          	process: 1221717	thread: 139725497860096	message: Watching for file changes with StatReloader
+INFO	2024-01-19 14:58:31,280	module: autoreload          	process: 1221717	thread: 139725497860096	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 14:58:31,572	module: autoreload          	process: 1232527	thread: 140562085765120	message: Watching for file changes with StatReloader
+INFO	2024-01-19 14:59:12,263	module: autoreload          	process: 1232527	thread: 140562085765120	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 14:59:12,604	module: autoreload          	process: 1236840	thread: 140672276643840	message: Watching for file changes with StatReloader
+INFO	2024-01-19 14:59:41,121	module: autoreload          	process: 1236840	thread: 140672276643840	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 14:59:41,421	module: autoreload          	process: 1241150	thread: 140372085198848	message: Watching for file changes with StatReloader
+INFO	2024-01-19 15:00:45,259	module: autoreload          	process: 1241150	thread: 140372085198848	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 15:00:45,572	module: autoreload          	process: 1247660	thread: 140074900738048	message: Watching for file changes with StatReloader
+INFO	2024-01-19 15:02:07,864	module: autoreload          	process: 1247660	thread: 140074900738048	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 15:02:08,158	module: autoreload          	process: 1256293	thread: 140595800469504	message: Watching for file changes with StatReloader
+INFO	2024-01-19 15:03:47,702	module: autoreload          	process: 1256293	thread: 140595800469504	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/urls.py changed, reloading.
+INFO	2024-01-19 15:03:48,003	module: autoreload          	process: 1264948	thread: 139982396342272	message: Watching for file changes with StatReloader
+WARNING	2024-01-19 15:03:58,732	module: log                 	process: 1264948	thread: 139982346585664	message: Not Found: /first_sem/authors
+WARNING	2024-01-19 15:03:58,733	module: basehttp            	process: 1264948	thread: 139982346585664	message: "GET /first_sem/authors HTTP/1.1" 404 3486
+INFO	2024-01-19 15:04:13,615	module: basehttp            	process: 1264948	thread: 139982346585664	message: "GET /second_sem/authors HTTP/1.1" 301 0
+ERROR	2024-01-19 15:04:13,788	module: log                 	process: 1264948	thread: 139982338192960	message: Internal Server Error: /second_sem/authors/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py", line 22, in authors_view
+    res_str = '\n'.join([author for author in authors])
+TypeError: sequence item 0: expected str instance, Author found
+ERROR	2024-01-19 15:04:13,789	module: basehttp            	process: 1264948	thread: 139982338192960	message: "GET /second_sem/authors/ HTTP/1.1" 500 69095
+WARNING	2024-01-19 15:05:19,985	module: log                 	process: 1264948	thread: 139982338192960	message: Not Found: /second_sem/posts/
+WARNING	2024-01-19 15:05:19,986	module: basehttp            	process: 1264948	thread: 139982338192960	message: "GET /second_sem/posts/ HTTP/1.1" 404 2776
+ERROR	2024-01-19 15:05:42,944	module: log                 	process: 1264948	thread: 139982338192960	message: Internal Server Error: /second_sem/post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py", line 28, in post_view
+    res_str = '\n'.join([post for post in posts])
+TypeError: sequence item 0: expected str instance, Post found
+ERROR	2024-01-19 15:05:42,945	module: basehttp            	process: 1264948	thread: 139982338192960	message: "GET /second_sem/post/ HTTP/1.1" 500 68726
+INFO	2024-01-19 15:08:12,588	module: autoreload          	process: 1264948	thread: 139982396342272	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 15:08:12,892	module: autoreload          	process: 1292967	thread: 139720813080576	message: Watching for file changes with StatReloader
+INFO	2024-01-19 15:08:17,020	module: basehttp            	process: 1292967	thread: 139720763389504	message: "GET /second_sem/post/ HTTP/1.1" 200 20789
+WARNING	2024-01-19 15:08:36,416	module: log                 	process: 1292967	thread: 139720763389504	message: Not Found: /second_sem/authhors/
+WARNING	2024-01-19 15:08:36,417	module: basehttp            	process: 1292967	thread: 139720763389504	message: "GET /second_sem/authhors/ HTTP/1.1" 404 2785
+INFO	2024-01-19 15:08:45,349	module: basehttp            	process: 1292967	thread: 139720763389504	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:09:30,020	module: autoreload          	process: 1292967	thread: 139720813080576	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 15:09:30,308	module: autoreload          	process: 1301593	thread: 140566252003328	message: Watching for file changes with StatReloader
+INFO	2024-01-19 15:09:34,001	module: basehttp            	process: 1301593	thread: 140566202381888	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:09:35,569	module: basehttp            	process: 1301593	thread: 140566202381888	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:09:36,133	module: basehttp            	process: 1301593	thread: 140566202381888	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:09:38,211	module: basehttp            	process: 1301593	thread: 140566202381888	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:11:03,684	module: autoreload          	process: 1301593	thread: 140566252003328	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 15:11:03,978	module: autoreload          	process: 1310235	thread: 139758847438848	message: Watching for file changes with StatReloader
+INFO	2024-01-19 15:11:07,747	module: basehttp            	process: 1310235	thread: 139758797755968	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:11:08,532	module: basehttp            	process: 1310235	thread: 139758797755968	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:11:08,945	module: basehttp            	process: 1310235	thread: 139758797755968	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:11:09,173	module: basehttp            	process: 1310235	thread: 139758797755968	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:11:09,375	module: basehttp            	process: 1310235	thread: 139758797755968	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:11:11,140	module: basehttp            	process: 1310235	thread: 139758797755968	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:11:46,777	module: autoreload          	process: 1310235	thread: 139758847438848	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 15:11:47,091	module: autoreload          	process: 1314561	thread: 139799953895424	message: Watching for file changes with StatReloader
+INFO	2024-01-19 15:12:45,063	module: autoreload          	process: 1314561	thread: 139799953895424	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 15:12:45,362	module: autoreload          	process: 1321019	thread: 139896568053760	message: Watching for file changes with StatReloader
+INFO	2024-01-19 15:12:48,505	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:12:49,521	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:12:49,997	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:12:50,246	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:12:50,450	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:12:50,655	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:12:51,125	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:12:51,339	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:12:51,554	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:12:51,783	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:12:52,061	module: basehttp            	process: 1321019	thread: 139896518358592	message: "GET /second_sem/authors/ HTTP/1.1" 200 1418
+INFO	2024-01-19 15:13:05,797	module: autoreload          	process: 1321019	thread: 139896568053760	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 15:13:06,111	module: autoreload          	process: 1323177	thread: 140422987874304	message: Watching for file changes with StatReloader
+INFO	2024-01-19 15:13:06,225	module: basehttp            	process: 1323177	thread: 140422938179136	message: "GET /second_sem/authors/ HTTP/1.1" 200 1505
+INFO	2024-01-19 15:13:19,016	module: basehttp            	process: 1323177	thread: 140422938179136	message: "GET /second_sem/post/ HTTP/1.1" 200 21686
+INFO	2024-01-19 16:58:20,672	module: autoreload          	process: 1972479	thread: 139791132307456	message: Watching for file changes with StatReloader
+INFO	2024-01-19 16:58:32,967	module: autoreload          	process: 1972479	thread: 139791132307456	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/urls.py changed, reloading.
+INFO	2024-01-19 16:58:33,265	module: autoreload          	process: 1972506	thread: 140371754250240	message: Watching for file changes with StatReloader
+WARNING	2024-01-19 16:58:44,726	module: log                 	process: 1972506	thread: 140371704542784	message: Not Found: /second_sem/get_orders/
+WARNING	2024-01-19 16:58:44,727	module: basehttp            	process: 1972506	thread: 140371704542784	message: "GET /second_sem/get_orders/ HTTP/1.1" 404 2969
+INFO	2024-01-19 16:59:04,875	module: autoreload          	process: 1972506	thread: 140371754250240	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/urls.py changed, reloading.
+INFO	2024-01-19 16:59:05,165	module: autoreload          	process: 1977002	thread: 140592332304384	message: Watching for file changes with StatReloader
+WARNING	2024-01-19 16:59:09,001	module: log                 	process: 1977002	thread: 140592282506816	message: Not Found: /second_sem/get_orders/
+WARNING	2024-01-19 16:59:09,002	module: basehttp            	process: 1977002	thread: 140592282506816	message: "GET /second_sem/get_orders/ HTTP/1.1" 404 2974
+WARNING	2024-01-19 16:59:14,828	module: log                 	process: 1977002	thread: 140592282506816	message: Not Found: /second_sem/get_orders/
+WARNING	2024-01-19 16:59:14,828	module: basehttp            	process: 1977002	thread: 140592282506816	message: "GET /second_sem/get_orders/ HTTP/1.1" 404 2974
+INFO	2024-01-19 16:59:52,993	module: autoreload          	process: 1977002	thread: 140592332304384	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/urls.py changed, reloading.
+INFO	2024-01-19 16:59:53,351	module: autoreload          	process: 1981536	thread: 139797155545088	message: Watching for file changes with StatReloader
+ERROR	2024-01-19 16:59:54,337	module: log                 	process: 1981536	thread: 139797105837632	message: Internal Server Error: /second_sem/get_orders/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view second_sem.views.get_orders didn't return an HttpResponse object. It returned None instead.
+ERROR	2024-01-19 16:59:54,337	module: basehttp            	process: 1981536	thread: 139797105837632	message: "GET /second_sem/get_orders/ HTTP/1.1" 500 68908
+INFO	2024-01-19 17:03:14,186	module: autoreload          	process: 1981536	thread: 139797155545088	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/second_sem/views.py changed, reloading.
+INFO	2024-01-19 17:03:14,486	module: autoreload          	process: 2004171	thread: 139691838443520	message: Watching for file changes with StatReloader
+INFO	2024-01-19 17:03:19,065	module: basehttp            	process: 2004171	thread: 139691788711488	message: "GET /second_sem/get_orders/ HTTP/1.1" 200 662

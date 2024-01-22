@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('first_sem', include('first_sem.urls')),
+    path('second_sem', include('second_sem.urls')),
 ]
