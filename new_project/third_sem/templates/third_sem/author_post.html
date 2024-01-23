@@ -1,0 +1,21 @@
+{% extends 'third_sem/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block header %}
+    {{ header }}
+{% endblock %}
+
+{% block content %}
+<ul>
+    {% for post in content %}
+        {% if post.is_published %}
+            <li><a href="{% url 'post' post_id=post.pk %}">{{ post }}</a></li>
+        {% else %}
+            <li>{{ post }}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}

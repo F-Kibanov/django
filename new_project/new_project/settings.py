@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'first_sem',
     'second_sem',
+    'third_sem',
 ]
 
 MIDDLEWARE = [
