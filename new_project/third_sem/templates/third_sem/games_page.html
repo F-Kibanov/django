@@ -1,0 +1,15 @@
+{% extends 'third_sem/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block header %}
+    {{ header }}
+{% endblock %}
+
+{% block content %}
+    {% for item in content %}
+        <p>{{ item }}</p>
+    {% endfor %}
+{% endblock %}
