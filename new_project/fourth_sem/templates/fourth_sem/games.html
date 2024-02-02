@@ -1,0 +1,14 @@
+{% extends 'third_sem/base.html' %}
+
+{% block header %}
+    Welcome to games
+{% endblock %}
+
+{% block content %}
+<h3>{{ message }}</h3>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_div }}
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}
