@@ -22,4 +22,5 @@ urlpatterns = [
     path('first_sem', include('first_sem.urls')),
     path('second_sem', include('second_sem.urls')),
     path('third_sem', include('third_sem.urls')),
+    path('fourth_sem', include('fourth_sem.urls')),
 ]

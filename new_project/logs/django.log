@@ -2673,3 +2673,1176 @@ INFO	2024-01-23 15:22:27,577	module: autoreload          	process: 2849559	threa
 INFO	2024-01-23 15:22:31,970	module: basehttp            	process: 2849559	thread: 139629051246144	message: "GET /third_sem/get_client_orders/3 HTTP/1.1" 200 574
 INFO	2024-01-23 15:22:33,424	module: basehttp            	process: 2849559	thread: 139629051246144	message: "GET /third_sem/get_client_orders/3 HTTP/1.1" 200 574
 INFO	2024-01-23 15:22:37,387	module: basehttp            	process: 2849559	thread: 139629051246144	message: "GET /third_sem/get_client_orders/4 HTTP/1.1" 200 412
+INFO	2024-02-01 21:17:51,312	module: autoreload          	process: 3986056	thread: 140149821620224	message: Watching for file changes with StatReloader
+WARNING	2024-02-01 21:17:59,369	module: log                 	process: 3986056	thread: 140149770851904	message: Not Found: /
+WARNING	2024-02-01 21:17:59,369	module: basehttp            	process: 3986056	thread: 140149770851904	message: "GET / HTTP/1.1" 404 2392
+WARNING	2024-02-01 21:17:59,647	module: log                 	process: 3986056	thread: 140149770851904	message: Not Found: /
+WARNING	2024-02-01 21:17:59,648	module: basehttp            	process: 3986056	thread: 140149770851904	message: "GET / HTTP/1.1" 404 2392
+WARNING	2024-02-01 21:18:19,224	module: log                 	process: 3986056	thread: 140149770851904	message: Not Found: /third_sem/
+WARNING	2024-02-01 21:18:19,224	module: basehttp            	process: 3986056	thread: 140149770851904	message: "GET /third_sem/ HTTP/1.1" 404 3897
+WARNING	2024-02-01 21:18:40,596	module: log                 	process: 3986056	thread: 140149770851904	message: Not Found: /third_sem/count
+WARNING	2024-02-01 21:18:40,597	module: basehttp            	process: 3986056	thread: 140149770851904	message: "GET /third_sem/count HTTP/1.1" 404 3912
+WARNING	2024-02-01 21:18:52,721	module: log                 	process: 3986056	thread: 140149770851904	message: Not Found: /third_sem/coin/
+WARNING	2024-02-01 21:18:52,721	module: basehttp            	process: 3986056	thread: 140149770851904	message: "GET /third_sem/coin/ HTTP/1.1" 404 3912
+INFO	2024-02-01 21:18:59,868	module: basehttp            	process: 3986056	thread: 140149770851904	message: "GET /third_sem/coin/3 HTTP/1.1" 200 269
+INFO	2024-02-01 21:20:27,951	module: autoreload          	process: 3986056	thread: 140149821620224	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-01 21:20:28,279	module: autoreload          	process: 3986438	thread: 139923669979136	message: Watching for file changes with StatReloader
+INFO	2024-02-01 21:36:52,647	module: autoreload          	process: 3988750	thread: 139770782183424	message: Watching for file changes with StatReloader
+WARNING	2024-02-01 21:36:56,900	module: log                 	process: 3988750	thread: 139770732414528	message: Not Found: /
+WARNING	2024-02-01 21:36:56,901	module: basehttp            	process: 3988750	thread: 139770732414528	message: "GET / HTTP/1.1" 404 2392
+INFO	2024-02-01 21:39:11,744	module: autoreload          	process: 3988750	thread: 139770782183424	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/urls.py changed, reloading.
+INFO	2024-02-01 21:39:12,075	module: autoreload          	process: 3989068	thread: 140395912208384	message: Watching for file changes with StatReloader
+INFO	2024-02-01 21:39:41,300	module: autoreload          	process: 3989151	thread: 140679771320320	message: Watching for file changes with StatReloader
+INFO	2024-02-01 21:41:00,441	module: autoreload          	process: 3989151	thread: 140679771320320	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/urls.py changed, reloading.
+INFO	2024-02-01 21:41:00,743	module: autoreload          	process: 3989353	thread: 140365977640960	message: Watching for file changes with StatReloader
+WARNING	2024-02-01 21:41:03,817	module: log                 	process: 3989353	thread: 140365926889024	message: Not Found: /
+WARNING	2024-02-01 21:41:03,817	module: basehttp            	process: 3989353	thread: 140365926889024	message: "GET / HTTP/1.1" 404 2502
+INFO	2024-02-01 21:41:21,811	module: basehttp            	process: 3989353	thread: 140365926889024	message: "GET /fourth_sem/games HTTP/1.1" 301 0
+ERROR	2024-02-01 21:41:22,205	module: log                 	process: 3989353	thread: 140365918496320	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/utils.py", line 54, in render
+    context = context or self.get_context()
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/forms.py", line 252, in non_field_errors
+    return self.errors.get(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/forms.py", line 192, in errors
+    self.full_clean()
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/forms.py", line 327, in full_clean
+    self._clean_fields()
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/forms.py", line 334, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/widgets.py", line 726, in value_from_datadict
+    getter = data.get
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR	2024-02-01 21:41:22,206	module: basehttp            	process: 3989353	thread: 140365918496320	message: "GET /fourth_sem/games/ HTTP/1.1" 500 100726
+INFO	2024-02-01 21:48:43,402	module: autoreload          	process: 3989353	thread: 140365977640960	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/urls.py changed, reloading.
+INFO	2024-02-01 21:48:43,733	module: autoreload          	process: 3990345	thread: 140509423280128	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 21:48:47,413	module: log                 	process: 3990345	thread: 140509372495424	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 16, in choice_game_type
+    return render(request, 'games/choice_game_type.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: games/choice_game_type.html
+ERROR	2024-02-01 21:48:47,414	module: basehttp            	process: 3990345	thread: 140509372495424	message: "GET /fourth_sem/games/ HTTP/1.1" 500 83601
+INFO	2024-02-01 21:49:47,884	module: autoreload          	process: 3990345	thread: 140509423280128	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 21:49:48,197	module: autoreload          	process: 3990490	thread: 139651372085248	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 21:49:51,683	module: log                 	process: 3990490	thread: 139651322381888	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 17, in choice_game_type
+    return render(request, 'games/choice_game_type.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: games/choice_game_type.html
+ERROR	2024-02-01 21:49:51,684	module: basehttp            	process: 3990490	thread: 139651322381888	message: "GET /fourth_sem/games/ HTTP/1.1" 500 83602
+INFO	2024-02-01 21:51:02,538	module: autoreload          	process: 3990490	thread: 139651372085248	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 21:51:02,824	module: autoreload          	process: 3990640	thread: 140455640862720	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 21:51:08,059	module: log                 	process: 3990640	thread: 140455590196800	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 17, in choice_game_type
+    return render(request, 'games/games.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: games/games.html
+ERROR	2024-02-01 21:51:08,060	module: basehttp            	process: 3990640	thread: 140455590196800	message: "GET /fourth_sem/games/ HTTP/1.1" 500 83404
+INFO	2024-02-01 21:51:46,662	module: autoreload          	process: 3990640	thread: 140455640862720	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 21:51:46,968	module: autoreload          	process: 3990737	thread: 140226906255360	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 21:51:49,304	module: log                 	process: 3990737	thread: 140226787800640	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 17, in choice_game_type
+    return render(request, 'fourth_sem/games.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: fourth_sem/games.html
+ERROR	2024-02-01 21:51:49,305	module: basehttp            	process: 3990737	thread: 140226787800640	message: "GET /fourth_sem/games/ HTTP/1.1" 500 83494
+INFO	2024-02-01 21:53:23,436	module: autoreload          	process: 3990941	thread: 139799551406080	message: Watching for file changes with StatReloader
+INFO	2024-02-01 21:53:26,075	module: basehttp            	process: 3990941	thread: 139799500691008	message: "GET /fourth_sem/games/ HTTP/1.1" 200 808
+ERROR	2024-02-01 21:53:33,321	module: log                 	process: 3990941	thread: 139799500691008	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 13, in choice_game_type
+    return render(request, 'games/choice_game_type.html',
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: games/choice_game_type.html
+ERROR	2024-02-01 21:53:33,322	module: basehttp            	process: 3990941	thread: 139799500691008	message: "POST /fourth_sem/games/ HTTP/1.1" 500 85527
+INFO	2024-02-01 21:54:39,300	module: autoreload          	process: 3991106	thread: 139873721933824	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 21:54:45,566	module: log                 	process: 3991106	thread: 139873672169024	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 12, in choice_game_type
+    throw_numbers = form.cleaned_data['throw_number']
+KeyError: 'throw_number'
+ERROR	2024-02-01 21:54:45,567	module: basehttp            	process: 3991106	thread: 139873672169024	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69476
+ERROR	2024-02-01 21:54:48,452	module: log                 	process: 3991106	thread: 139873672169024	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 12, in choice_game_type
+    throw_numbers = form.cleaned_data['throw_number']
+KeyError: 'throw_number'
+ERROR	2024-02-01 21:54:48,452	module: basehttp            	process: 3991106	thread: 139873672169024	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69476
+INFO	2024-02-01 21:55:14,052	module: autoreload          	process: 3991106	thread: 139873721933824	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 21:55:14,347	module: autoreload          	process: 3991175	thread: 139787129630720	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 21:55:18,632	module: log                 	process: 3991175	thread: 139787078899264	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 12, in choice_game_type
+    throw_number = form.cleaned_data['throw_number']
+KeyError: 'throw_number'
+ERROR	2024-02-01 21:55:18,632	module: basehttp            	process: 3991175	thread: 139787078899264	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69472
+INFO	2024-02-01 21:56:07,369	module: autoreload          	process: 3991175	thread: 139787129630720	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-01 21:56:07,671	module: autoreload          	process: 3991287	thread: 140666986782720	message: Watching for file changes with StatReloader
+INFO	2024-02-01 21:56:11,603	module: basehttp            	process: 3991287	thread: 140666937165376	message: "POST /fourth_sem/games/ HTTP/1.1" 200 903
+INFO	2024-02-01 21:57:39,347	module: autoreload          	process: 3991287	thread: 140666986782720	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 21:57:39,681	module: autoreload          	process: 3991475	thread: 139657161543680	message: Watching for file changes with StatReloader
+INFO	2024-02-01 21:57:40,228	module: basehttp            	process: 3991475	thread: 139657111864896	message: "POST /fourth_sem/games/ HTTP/1.1" 200 903
+INFO	2024-02-01 21:57:43,244	module: basehttp            	process: 3991475	thread: 139657111864896	message: "POST /fourth_sem/games/ HTTP/1.1" 200 903
+INFO	2024-02-01 22:01:48,509	module: autoreload          	process: 3991475	thread: 139657161543680	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:01:48,799	module: autoreload          	process: 3992086	thread: 140305807147008	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:01:52,518	module: basehttp            	process: 3992086	thread: 140305756304960	message: "POST /fourth_sem/games/ HTTP/1.1" 200 903
+INFO	2024-02-01 22:03:57,896	module: autoreload          	process: 3992086	thread: 140305807147008	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:03:58,204	module: autoreload          	process: 3992353	thread: 139688084963328	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:04:59,213	module: autoreload          	process: 3992353	thread: 139688084963328	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:04:59,579	module: autoreload          	process: 3992492	thread: 140022463942656	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:07:08,397	module: autoreload          	process: 3992492	thread: 140022463942656	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:07:08,717	module: autoreload          	process: 3992752	thread: 139886176432128	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:07:21,013	module: autoreload          	process: 3992752	thread: 139886176432128	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:07:21,307	module: autoreload          	process: 3992786	thread: 140112459882496	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:07:26,721	module: basehttp            	process: 3992786	thread: 140112409040448	message: "POST /fourth_sem/games/ HTTP/1.1" 200 903
+ERROR	2024-02-01 22:07:31,402	module: log                 	process: 3992786	thread: 140112409040448	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 14, in choice_game_type
+    logger.info(f'Game: {game_type=}, Throws: {throw_number=}')
+NameError: name 'logger' is not defined
+ERROR	2024-02-01 22:07:31,403	module: basehttp            	process: 3992786	thread: 140112409040448	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69900
+INFO	2024-02-01 22:07:45,933	module: autoreload          	process: 3992786	thread: 140112459882496	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:07:46,241	module: autoreload          	process: 3992858	thread: 139900162142208	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 22:07:49,424	module: log                 	process: 3992858	thread: 139900112488000	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 16, in choice_game_type
+    views.coin()
+TypeError: log.<locals>.wrapper() missing 1 required positional argument: 'request'
+ERROR	2024-02-01 22:07:49,425	module: basehttp            	process: 3992858	thread: 139900112488000	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69982
+INFO	2024-02-01 22:08:45,340	module: autoreload          	process: 3992858	thread: 139900162142208	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:08:45,648	module: autoreload          	process: 3992993	thread: 140540836958208	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:08:49,743	module: views               	process: 3992993	thread: 140540786251328	message: Game: game_type='C', Throws: throw_number=1
+ERROR	2024-02-01 22:08:49,791	module: log                 	process: 3992993	thread: 140540786251328	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 16, in choice_game_type
+    views.coin()
+TypeError: log.<locals>.wrapper() missing 1 required positional argument: 'request'
+ERROR	2024-02-01 22:08:49,792	module: basehttp            	process: 3992993	thread: 140540786251328	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69986
+INFO	2024-02-01 22:11:06,745	module: autoreload          	process: 3992993	thread: 140540836958208	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:11:07,074	module: autoreload          	process: 3993335	thread: 140081401552896	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:11:11,468	module: views               	process: 3993335	thread: 140081350850112	message: Game: game_type='C', Throws: throw_number=1
+ERROR	2024-02-01 22:11:11,524	module: log                 	process: 3993335	thread: 140081350850112	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 17, in choice_game_type
+    coin(throw_number)
+TypeError: coin() missing 1 required positional argument: 'count'
+ERROR	2024-02-01 22:11:11,525	module: basehttp            	process: 3993335	thread: 140081350850112	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69976
+INFO	2024-02-01 22:12:50,741	module: autoreload          	process: 3993335	thread: 140081401552896	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:12:51,031	module: autoreload          	process: 3993552	thread: 140093053169664	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:12:54,450	module: views               	process: 3993552	thread: 140093002331712	message: Game: game_type='C', Throws: throw_number=1
+ERROR	2024-02-01 22:12:54,485	module: log                 	process: 3993552	thread: 140093002331712	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 23, in choice_game_type
+    raise ValueError(f'Invalid game type: {game_type=}')
+ValueError: Invalid game type: game_type='C'
+ERROR	2024-02-01 22:12:54,486	module: basehttp            	process: 3993552	thread: 140093002331712	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69800
+INFO	2024-02-01 22:13:45,999	module: autoreload          	process: 3993552	thread: 140093053169664	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:13:46,289	module: autoreload          	process: 3993677	thread: 139746830725120	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:13:49,596	module: views               	process: 3993677	thread: 139746779936320	message: Game: game_type='C', Throws: throw_number=1
+ERROR	2024-02-01 22:13:49,640	module: log                 	process: 3993677	thread: 139746779936320	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 17, in choice_game_type
+    coin(throw_number)
+TypeError: coin() missing 1 required positional argument: 'count'
+ERROR	2024-02-01 22:13:49,641	module: basehttp            	process: 3993677	thread: 139746779936320	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69976
+INFO	2024-02-01 22:14:25,056	module: autoreload          	process: 3993677	thread: 139746830725120	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:14:25,362	module: autoreload          	process: 3993775	thread: 139761956323328	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:14:29,109	module: views               	process: 3993775	thread: 139761906550336	message: Game: game_type='C', Throws: throw_number=1
+ERROR	2024-02-01 22:14:29,141	module: log                 	process: 3993775	thread: 139761906550336	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 17, in choice_game_type
+    coin(count=throw_number)
+TypeError: coin() missing 1 required positional argument: 'request'
+ERROR	2024-02-01 22:14:29,142	module: basehttp            	process: 3993775	thread: 139761906550336	message: "POST /fourth_sem/games/ HTTP/1.1" 500 70008
+INFO	2024-02-01 22:14:54,031	module: autoreload          	process: 3993775	thread: 139761956323328	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:14:54,332	module: autoreload          	process: 3993856	thread: 140249826684928	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:14:59,035	module: views               	process: 3993856	thread: 140249776002624	message: Game: game_type='C', Throws: throw_number=1
+ERROR	2024-02-01 22:14:59,100	module: log                 	process: 3993856	thread: 140249776002624	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 24, in choice_game_type
+    return render(request, 'games/choice_game_type.html',
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: games/choice_game_type.html
+ERROR	2024-02-01 22:14:59,101	module: basehttp            	process: 3993856	thread: 140249776002624	message: "POST /fourth_sem/games/ HTTP/1.1" 500 85578
+INFO	2024-02-01 22:15:29,026	module: autoreload          	process: 3993856	thread: 140249826684928	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:15:29,340	module: autoreload          	process: 3993939	thread: 140511375208448	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:15:34,737	module: views               	process: 3993939	thread: 140511324386880	message: Game: game_type='C', Throws: throw_number=1
+ERROR	2024-02-01 22:15:34,781	module: log                 	process: 3993939	thread: 140511324386880	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 24, in choice_game_type
+    return render(request, 'games/games.html',
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: games/games.html
+ERROR	2024-02-01 22:15:34,782	module: basehttp            	process: 3993939	thread: 140511324386880	message: "POST /fourth_sem/games/ HTTP/1.1" 500 85380
+INFO	2024-02-01 22:16:09,057	module: autoreload          	process: 3993939	thread: 140511375208448	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:16:09,389	module: autoreload          	process: 3994708	thread: 140324448280576	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:16:14,927	module: views               	process: 3994708	thread: 140324397610560	message: Game: game_type='C', Throws: throw_number=1
+INFO	2024-02-01 22:16:14,933	module: basehttp            	process: 3994708	thread: 140324397610560	message: "POST /fourth_sem/games/ HTTP/1.1" 200 392
+INFO	2024-02-01 22:16:17,781	module: basehttp            	process: 3994708	thread: 140324397610560	message: "POST /fourth_sem/games/ HTTP/1.1" 200 984
+INFO	2024-02-01 22:16:24,871	module: views               	process: 3994708	thread: 140324397610560	message: Game: game_type='D', Throws: throw_number=1
+INFO	2024-02-01 22:16:24,877	module: basehttp            	process: 3994708	thread: 140324397610560	message: "POST /fourth_sem/games/ HTTP/1.1" 200 392
+INFO	2024-02-01 22:16:26,364	module: basehttp            	process: 3994708	thread: 140324397610560	message: "POST /fourth_sem/games/ HTTP/1.1" 200 984
+INFO	2024-02-01 22:16:30,947	module: views               	process: 3994708	thread: 140324397610560	message: Game: game_type='C', Throws: throw_number=5
+INFO	2024-02-01 22:16:30,951	module: basehttp            	process: 3994708	thread: 140324397610560	message: "POST /fourth_sem/games/ HTTP/1.1" 200 392
+INFO	2024-02-01 22:17:15,666	module: basehttp            	process: 3994708	thread: 140324397610560	message: "POST /fourth_sem/games/ HTTP/1.1" 200 984
+INFO	2024-02-01 22:17:19,753	module: views               	process: 3994708	thread: 140324397610560	message: Game: game_type='C', Throws: throw_number=1
+INFO	2024-02-01 22:17:19,757	module: basehttp            	process: 3994708	thread: 140324397610560	message: "POST /fourth_sem/games/ HTTP/1.1" 200 392
+INFO	2024-02-01 22:21:13,284	module: basehttp            	process: 3994708	thread: 140324397610560	message: "POST /fourth_sem/games/ HTTP/1.1" 200 984
+INFO	2024-02-01 22:21:25,326	module: views               	process: 3994708	thread: 140324397610560	message: Game: game_type='N', Throws: throw_number=4
+ERROR	2024-02-01 22:21:25,377	module: log                 	process: 3994708	thread: 140324397610560	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 23, in choice_game_type
+    raise ValueError(f'Invalid game type: {game_type=}')
+ValueError: Invalid game type: game_type='N'
+ERROR	2024-02-01 22:21:25,378	module: basehttp            	process: 3994708	thread: 140324397610560	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69827
+INFO	2024-02-01 22:22:20,345	module: autoreload          	process: 3994708	thread: 140324448280576	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:22:20,654	module: autoreload          	process: 3995496	thread: 140643673968640	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:22:25,037	module: views               	process: 3995496	thread: 140643623245376	message: Game: game_type='N', Throws: throw_number=4
+ERROR	2024-02-01 22:22:25,080	module: log                 	process: 3995496	thread: 140643623245376	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 24, in choice_game_type
+    raise ValueError(f'Invalid game type: {game_type=}')
+ValueError: Invalid game type: game_type='N'
+ERROR	2024-02-01 22:22:25,081	module: basehttp            	process: 3995496	thread: 140643623245376	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69832
+INFO	2024-02-01 22:22:42,149	module: autoreload          	process: 3995496	thread: 140643673968640	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:22:42,461	module: autoreload          	process: 3995559	thread: 139978380652544	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:22:45,863	module: views               	process: 3995559	thread: 139978329966144	message: Game: game_type='N', Throws: throw_number=4
+ERROR	2024-02-01 22:22:45,896	module: log                 	process: 3995559	thread: 139978329966144	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 23, in choice_game_type
+    raise ValueError(f'Invalid game type: {game_type=}')
+ValueError: Invalid game type: game_type='N'
+ERROR	2024-02-01 22:22:45,896	module: basehttp            	process: 3995559	thread: 139978329966144	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69827
+INFO	2024-02-01 22:23:06,813	module: autoreload          	process: 3995622	thread: 140217032450048	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:23:11,184	module: views               	process: 3995622	thread: 140216981788224	message: Game: game_type='N', Throws: throw_number=4
+ERROR	2024-02-01 22:23:11,223	module: log                 	process: 3995622	thread: 140216981788224	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 23, in choice_game_type
+    raise ValueError(f'Invalid game type: {game_type=}')
+ValueError: Invalid game type: game_type='N'
+ERROR	2024-02-01 22:23:11,224	module: basehttp            	process: 3995622	thread: 140216981788224	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69827
+INFO	2024-02-01 22:23:37,893	module: views               	process: 3995622	thread: 140216981788224	message: Game: game_type='N', Throws: throw_number=4
+ERROR	2024-02-01 22:23:37,932	module: log                 	process: 3995622	thread: 140216981788224	message: Internal Server Error: /fourth_sem/games/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 23, in choice_game_type
+    raise ValueError(f'Invalid game type: {game_type=}')
+ValueError: Invalid game type: game_type='N'
+ERROR	2024-02-01 22:23:37,932	module: basehttp            	process: 3995622	thread: 140216981788224	message: "POST /fourth_sem/games/ HTTP/1.1" 500 69827
+INFO	2024-02-01 22:24:19,105	module: autoreload          	process: 3995622	thread: 140217032450048	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-01 22:24:19,446	module: autoreload          	process: 3995786	thread: 140380786249728	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:24:22,942	module: basehttp            	process: 3995786	thread: 140380667377216	message: "POST /fourth_sem/games/ HTTP/1.1" 200 982
+INFO	2024-02-01 22:24:28,465	module: views               	process: 3995786	thread: 140380667377216	message: Game: game_type='H', Throws: throw_number=7
+INFO	2024-02-01 22:24:28,476	module: basehttp            	process: 3995786	thread: 140380667377216	message: "POST /fourth_sem/games/ HTTP/1.1" 200 392
+INFO	2024-02-01 22:29:08,478	module: basehttp            	process: 3995786	thread: 140380667377216	message: "POST /fourth_sem/games/ HTTP/1.1" 200 984
+INFO	2024-02-01 22:29:15,196	module: views               	process: 3995786	thread: 140380667377216	message: Game: game_type='D', Throws: throw_number=1
+INFO	2024-02-01 22:29:15,200	module: basehttp            	process: 3995786	thread: 140380667377216	message: "POST /fourth_sem/games/ HTTP/1.1" 200 392
+INFO	2024-02-01 22:30:05,271	module: autoreload          	process: 3995786	thread: 140380786249728	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:30:05,558	module: autoreload          	process: 3996489	thread: 140040454832128	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:30:09,701	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='D', Throws: throw_number=1
+INFO	2024-02-01 22:30:09,719	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 211
+INFO	2024-02-01 22:30:12,950	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='D', Throws: throw_number=1
+INFO	2024-02-01 22:30:12,951	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 211
+INFO	2024-02-01 22:30:15,993	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='D', Throws: throw_number=1
+INFO	2024-02-01 22:30:15,995	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 211
+INFO	2024-02-01 22:30:18,940	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='D', Throws: throw_number=1
+INFO	2024-02-01 22:30:18,943	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 211
+INFO	2024-02-01 22:30:22,404	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='D', Throws: throw_number=1
+INFO	2024-02-01 22:30:22,406	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 211
+INFO	2024-02-01 22:30:25,671	module: basehttp            	process: 3996489	thread: 140040405190208	message: "GET /fourth_sem/games/ HTTP/1.1" 200 804
+INFO	2024-02-01 22:30:32,678	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='C', Throws: throw_number=4
+INFO	2024-02-01 22:30:32,680	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 294
+INFO	2024-02-01 22:30:38,149	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='C', Throws: throw_number=4
+INFO	2024-02-01 22:30:38,151	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 294
+INFO	2024-02-01 22:31:23,962	module: basehttp            	process: 3996489	thread: 140040405190208	message: "GET /fourth_sem/games/ HTTP/1.1" 200 804
+INFO	2024-02-01 22:31:31,106	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='H', Throws: throw_number=3
+INFO	2024-02-01 22:31:31,107	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 282
+INFO	2024-02-01 22:33:34,274	module: basehttp            	process: 3996489	thread: 140040405190208	message: "GET /fourth_sem/games/ HTTP/1.1" 200 804
+INFO	2024-02-01 22:34:04,751	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='C', Throws: throw_number=10
+INFO	2024-02-01 22:34:04,754	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 444
+INFO	2024-02-01 22:34:07,790	module: basehttp            	process: 3996489	thread: 140040405190208	message: "GET /fourth_sem/games/ HTTP/1.1" 200 804
+INFO	2024-02-01 22:34:10,601	module: basehttp            	process: 3996489	thread: 140040405190208	message: "GET /fourth_sem/games/ HTTP/1.1" 200 804
+INFO	2024-02-01 22:34:11,342	module: basehttp            	process: 3996489	thread: 140040405190208	message: "GET /fourth_sem/games/ HTTP/1.1" 200 804
+INFO	2024-02-01 22:34:14,869	module: basehttp            	process: 3996489	thread: 140040405190208	message: "GET /fourth_sem/games/ HTTP/1.1" 200 804
+INFO	2024-02-01 22:34:17,723	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='C', Throws: throw_number=1
+INFO	2024-02-01 22:34:17,725	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 219
+INFO	2024-02-01 22:34:27,946	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='C', Throws: throw_number=1
+INFO	2024-02-01 22:34:27,948	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 219
+INFO	2024-02-01 22:34:30,971	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='C', Throws: throw_number=1
+INFO	2024-02-01 22:34:30,973	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 219
+INFO	2024-02-01 22:34:33,863	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='C', Throws: throw_number=1
+INFO	2024-02-01 22:34:33,865	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 219
+INFO	2024-02-01 22:34:36,970	module: views               	process: 3996489	thread: 140040405190208	message: Game: game_type='C', Throws: throw_number=1
+INFO	2024-02-01 22:34:36,973	module: basehttp            	process: 3996489	thread: 140040405190208	message: "POST /fourth_sem/games/ HTTP/1.1" 200 219
+INFO	2024-02-01 22:34:42,166	module: basehttp            	process: 3996489	thread: 140040405190208	message: "GET /fourth_sem/games/ HTTP/1.1" 200 804
+INFO	2024-02-01 22:37:50,245	module: autoreload          	process: 3996489	thread: 140040454832128	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:37:50,584	module: autoreload          	process: 3997442	thread: 140273271549952	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:39:30,244	module: autoreload          	process: 3997442	thread: 140273271549952	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-01 22:39:30,582	module: autoreload          	process: 3997655	thread: 140433383936000	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:40:20,387	module: autoreload          	process: 3997655	thread: 140433383936000	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-01 22:40:20,701	module: autoreload          	process: 3997761	thread: 140223907885056	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:41:22,749	module: autoreload          	process: 3997761	thread: 140223907885056	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-01 22:41:23,118	module: autoreload          	process: 3997906	thread: 140373565005824	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:44:41,355	module: autoreload          	process: 3997906	thread: 140373565005824	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/third_sem/models.py changed, reloading.
+INFO	2024-02-01 22:44:41,886	module: autoreload          	process: 3998323	thread: 139633430888448	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:49:43,692	module: autoreload          	process: 3998975	thread: 140133800841216	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:51:43,692	module: autoreload          	process: 3998975	thread: 140133800841216	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:51:44,020	module: autoreload          	process: 3999222	thread: 140277907140608	message: Watching for file changes with StatReloader
+INFO	2024-02-01 22:54:26,487	module: autoreload          	process: 3999222	thread: 140277907140608	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:54:26,818	module: autoreload          	process: 3999610	thread: 140052842352640	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 22:54:35,174	module: log                 	process: 3999610	thread: 140052791539264	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourth_sem.views.add_author didn't return an HttpResponse object. It returned None instead.
+ERROR	2024-02-01 22:54:35,175	module: basehttp            	process: 3999610	thread: 140052791539264	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 69164
+INFO	2024-02-01 22:55:37,066	module: autoreload          	process: 3999610	thread: 140052842352640	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:55:37,355	module: autoreload          	process: 3999757	thread: 139769548570624	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 22:55:40,365	module: log                 	process: 3999757	thread: 139769497749056	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'lections_project/fourthapp/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: lections_project/fourthapp/user_form.html
+ERROR	2024-02-01 22:55:40,366	module: basehttp            	process: 3999757	thread: 139769497749056	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 84153
+INFO	2024-02-01 22:56:17,177	module: autoreload          	process: 3999757	thread: 139769548570624	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:56:17,495	module: autoreload          	process: 3999843	thread: 140083999145984	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 22:56:19,289	module: log                 	process: 3999843	thread: 140083949405760	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'lections_project/fourthapp/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: lections_project/fourthapp/user_form.html
+ERROR	2024-02-01 22:56:19,290	module: basehttp            	process: 3999843	thread: 140083949405760	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 84162
+INFO	2024-02-01 22:56:39,060	module: autoreload          	process: 3999843	thread: 140083999145984	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:56:39,362	module: autoreload          	process: 3999892	thread: 140625765019648	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 22:56:42,105	module: log                 	process: 3999892	thread: 140625714255424	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'lections/lections_project/fourthapp/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: lections/lections_project/fourthapp/user_form.html
+ERROR	2024-02-01 22:56:42,105	module: basehttp            	process: 3999892	thread: 140625714255424	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 84324
+INFO	2024-02-01 22:57:20,877	module: autoreload          	process: 3999892	thread: 140625765019648	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:57:21,164	module: autoreload          	process: 3999990	thread: 140098335764480	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 22:57:23,519	module: log                 	process: 3999990	thread: 140098285082176	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'lections/lections_project/fourthapp/templates/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: lections/lections_project/fourthapp/templates/user_form.html
+ERROR	2024-02-01 22:57:23,520	module: basehttp            	process: 3999990	thread: 140098285082176	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 84514
+INFO	2024-02-01 22:58:31,377	module: autoreload          	process: 3999990	thread: 140098335764480	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:58:31,696	module: autoreload          	process: 4000149	thread: 140486274445312	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 22:58:34,166	module: log                 	process: 4000149	thread: 140486224741952	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_form.html
+ERROR	2024-02-01 22:58:34,167	module: basehttp            	process: 4000149	thread: 140486224741952	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 83640
+INFO	2024-02-01 22:58:56,224	module: autoreload          	process: 4000149	thread: 140486274445312	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:58:56,537	module: autoreload          	process: 4000215	thread: 140344320352256	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 22:58:58,366	module: log                 	process: 4000215	thread: 140344269600320	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'templates/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/user_form.html
+ERROR	2024-02-01 22:58:58,366	module: basehttp            	process: 4000215	thread: 140344269600320	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 83830
+INFO	2024-02-01 22:59:56,737	module: autoreload          	process: 4000215	thread: 140344320352256	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 22:59:57,041	module: autoreload          	process: 4000361	thread: 140299545059328	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 22:59:58,593	module: log                 	process: 4000361	thread: 140299494209088	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'fourth_sem/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR	2024-02-01 22:59:58,595	module: basehttp            	process: 4000361	thread: 140299494209088	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 134840
+INFO	2024-02-01 23:01:39,760	module: autoreload          	process: 4000361	thread: 140299545059328	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-01 23:01:40,072	module: autoreload          	process: 4000633	thread: 140023122030592	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 23:01:43,332	module: log                 	process: 4000633	thread: 140023071258176	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'fourth_sem/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR	2024-02-01 23:01:43,333	module: basehttp            	process: 4000633	thread: 140023071258176	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 135702
+INFO	2024-02-01 23:04:32,795	module: autoreload          	process: 4000633	thread: 140023122030592	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 23:04:33,109	module: autoreload          	process: 4000972	thread: 139786819043328	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 23:04:37,616	module: log                 	process: 4000972	thread: 139786769335872	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'fourth_sem/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR	2024-02-01 23:04:37,618	module: basehttp            	process: 4000972	thread: 139786769335872	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 135702
+INFO	2024-02-01 23:07:31,735	module: autoreload          	process: 4001340	thread: 139860470558720	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 23:07:34,552	module: log                 	process: 4001340	thread: 139860419810880	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'fourth_sem/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR	2024-02-01 23:07:34,554	module: basehttp            	process: 4001340	thread: 139860419810880	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 135702
+INFO	2024-02-01 23:08:18,681	module: autoreload          	process: 4001340	thread: 139860470558720	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-01 23:08:18,994	module: autoreload          	process: 4001445	thread: 140339942879232	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 23:08:21,389	module: log                 	process: 4001445	thread: 140339893175872	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'fourth_sem/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR	2024-02-01 23:08:21,390	module: basehttp            	process: 4001445	thread: 140339893175872	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 134840
+INFO	2024-02-01 23:08:48,720	module: autoreload          	process: 4001511	thread: 140477752004608	message: Watching for file changes with StatReloader
+INFO	2024-02-01 23:08:51,258	module: basehttp            	process: 4001511	thread: 140477702276672	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1117
+INFO	2024-02-01 23:11:01,870	module: views               	process: 4001511	thread: 140477702276672	message: Author: name='jklkl', surname='fjklsjaffov', email='1@2.io', bio='lorem ipsum dolor sit amet', birthday=datetime.date(1221, 1, 1)
+INFO	2024-02-01 23:11:02,004	module: basehttp            	process: 4001511	thread: 140477702276672	message: "POST /fourth_sem/add_author/ HTTP/1.1" 200 424
+INFO	2024-02-01 23:13:03,675	module: autoreload          	process: 4001511	thread: 140477752004608	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-01 23:13:03,988	module: autoreload          	process: 4002089	thread: 139936460853248	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 23:13:10,748	module: log                 	process: 4002089	thread: 139936342734400	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: fourth_sem/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'fourth_sem/user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: fourth_sem/base.html
+ERROR	2024-02-01 23:13:10,749	module: basehttp            	process: 4002089	thread: 139936342734400	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 135961
+INFO	2024-02-01 23:13:25,521	module: autoreload          	process: 4002089	thread: 139936460853248	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 23:13:25,811	module: autoreload          	process: 4002147	thread: 140341230776320	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 23:13:27,986	module: log                 	process: 4002147	thread: 140341180012096	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_form.html
+ERROR	2024-02-01 23:13:27,987	module: basehttp            	process: 4002147	thread: 140341180012096	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 84199
+INFO	2024-02-01 23:14:15,209	module: autoreload          	process: 4002247	thread: 140620069232640	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 23:14:17,831	module: log                 	process: 4002247	thread: 140620018390592	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'user_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_form.html
+ERROR	2024-02-01 23:14:17,832	module: basehttp            	process: 4002247	thread: 140620018390592	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 84199
+INFO	2024-02-01 23:16:13,080	module: autoreload          	process: 4002247	thread: 140620069232640	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 23:16:13,395	module: autoreload          	process: 4002499	thread: 140185657024512	message: Watching for file changes with StatReloader
+INFO	2024-02-01 23:16:16,453	module: basehttp            	process: 4002499	thread: 140185606297152	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1117
+INFO	2024-02-01 23:18:04,449	module: autoreload          	process: 4002499	thread: 140185657024512	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-01 23:18:04,784	module: autoreload          	process: 4002741	thread: 140473872715776	message: Watching for file changes with StatReloader
+ERROR	2024-02-01 23:18:08,094	module: log                 	process: 4002741	thread: 140473750517312	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'fourth_sem/author_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: fourth_sem/author_form.html
+ERROR	2024-02-01 23:18:08,095	module: basehttp            	process: 4002741	thread: 140473750517312	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 84472
+INFO	2024-02-01 23:19:29,720	module: autoreload          	process: 4002937	thread: 140312902590464	message: Watching for file changes with StatReloader
+INFO	2024-02-01 23:19:32,872	module: basehttp            	process: 4002937	thread: 140312851924544	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1117
+INFO	2024-02-01 23:20:11,375	module: views               	process: 4002937	thread: 140312851924544	message: Author: name='ert', surname='sdgdsg', email='fjklsjaffov@sdf.fg', bio='some bio', birthday=datetime.date(1221, 1, 1)
+INFO	2024-02-01 23:20:11,520	module: basehttp            	process: 4002937	thread: 140312851924544	message: "POST /fourth_sem/add_author/ HTTP/1.1" 200 424
+INFO	2024-02-01 23:20:13,155	module: basehttp            	process: 4002937	thread: 140312851924544	message: "POST /fourth_sem/add_author/ HTTP/1.1" 200 1567
+INFO	2024-02-01 23:31:14,780	module: autoreload          	process: 4051712	thread: 140251268022272	message: Watching for file changes with StatReloader
+INFO	2024-02-01 23:31:25,004	module: basehttp            	process: 4051712	thread: 140251150415424	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1117
+INFO	2024-02-01 23:31:36,711	module: basehttp            	process: 4051712	thread: 140251150415424	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1117
+INFO	2024-02-01 23:31:37,471	module: basehttp            	process: 4051712	thread: 140251150415424	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1149
+INFO	2024-02-01 23:31:39,180	module: basehttp            	process: 4051712	thread: 140251150415424	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1149
+INFO	2024-02-01 23:32:48,596	module: basehttp            	process: 4051712	thread: 140251150415424	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1149
+ERROR	2024-02-01 23:32:51,834	module: log                 	process: 4051712	thread: 140251150415424	message: Internal Server Error: /fourth_sem/add_author/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 49, in add_author
+    return render(request, 'fourth_sem/author_form.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+ERROR	2024-02-01 23:32:51,835	module: basehttp            	process: 4051712	thread: 140251150415424	message: "GET /fourth_sem/add_author/ HTTP/1.1" 500 153379
+INFO	2024-02-01 23:33:16,418	module: basehttp            	process: 4051712	thread: 140251150415424	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1149
+INFO	2024-02-01 23:34:35,224	module: autoreload          	process: 4053160	thread: 140328561512448	message: Watching for file changes with StatReloader
+INFO	2024-02-01 23:34:37,978	module: basehttp            	process: 4053160	thread: 140328510764608	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1149
+INFO	2024-02-01 23:37:38,774	module: autoreload          	process: 4054153	thread: 139668719960064	message: Watching for file changes with StatReloader
+INFO	2024-02-01 23:37:41,947	module: basehttp            	process: 4054153	thread: 139668670318144	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1149
+INFO	2024-02-02 00:00:36,437	module: autoreload          	process: 4054153	thread: 139668719960064	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:00:36,771	module: autoreload          	process: 4056922	thread: 139902304804864	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:05:50,761	module: autoreload          	process: 4057641	thread: 140709924896768	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:06:18,390	module: autoreload          	process: 4057702	thread: 139756329766912	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:06:27,150	module: basehttp            	process: 4057702	thread: 139756278986304	message: "GET /fourth_sem/add_author/ HTTP/1.1" 200 1149
+WARNING	2024-02-02 00:06:34,935	module: log                 	process: 4057702	thread: 139756278986304	message: Not Found: /fourth_sem/add_post
+WARNING	2024-02-02 00:06:34,935	module: basehttp            	process: 4057702	thread: 139756278986304	message: "GET /fourth_sem/add_post HTTP/1.1" 404 3016
+INFO	2024-02-02 00:06:54,158	module: autoreload          	process: 4057702	thread: 139756329766912	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/urls.py changed, reloading.
+INFO	2024-02-02 00:06:54,466	module: autoreload          	process: 4057784	thread: 140578895548416	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:06:56,790	module: basehttp            	process: 4057784	thread: 140578775889472	message: "GET /fourth_sem/add_post HTTP/1.1" 301 0
+ERROR	2024-02-02 00:06:56,819	module: log                 	process: 4057784	thread: 140578767496768	message: Internal Server Error: /fourth_sem/add_post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourth_sem.views.add_post didn't return an HttpResponse object. It returned None instead.
+ERROR	2024-02-02 00:06:56,820	module: basehttp            	process: 4057784	thread: 140578767496768	message: "GET /fourth_sem/add_post/ HTTP/1.1" 500 69215
+ERROR	2024-02-02 00:08:13,228	module: log                 	process: 4057784	thread: 140578767496768	message: Internal Server Error: /fourth_sem/add_post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourth_sem.views.add_post didn't return an HttpResponse object. It returned None instead.
+ERROR	2024-02-02 00:08:13,228	module: basehttp            	process: 4057784	thread: 140578767496768	message: "GET /fourth_sem/add_post/ HTTP/1.1" 500 69215
+INFO	2024-02-02 00:08:13,681	module: autoreload          	process: 4057784	thread: 140578895548416	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:08:14,075	module: autoreload          	process: 4057958	thread: 140298833457152	message: Watching for file changes with StatReloader
+ERROR	2024-02-02 00:08:17,077	module: log                 	process: 4057958	thread: 140298783753792	message: Internal Server Error: /fourth_sem/add_post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourth_sem.views.add_post didn't return an HttpResponse object. It returned None instead.
+ERROR	2024-02-02 00:08:17,078	module: basehttp            	process: 4057958	thread: 140298783753792	message: "GET /fourth_sem/add_post/ HTTP/1.1" 500 69215
+INFO	2024-02-02 00:09:04,051	module: autoreload          	process: 4057958	thread: 140298833457152	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:09:04,370	module: autoreload          	process: 4058061	thread: 140012278046720	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:09:06,568	module: basehttp            	process: 4058061	thread: 140012227401280	message: "GET /fourth_sem/add_post/ HTTP/1.1" 200 2281
+INFO	2024-02-02 00:11:17,593	module: autoreload          	process: 4058061	thread: 140012278046720	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:11:17,952	module: autoreload          	process: 4058339	thread: 140431653904384	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:11:43,443	module: autoreload          	process: 4058339	thread: 140431653904384	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:11:43,754	module: autoreload          	process: 4058394	thread: 140330242039808	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:14:37,050	module: autoreload          	process: 4058394	thread: 140330242039808	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:14:37,356	module: autoreload          	process: 4058736	thread: 140303177580544	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:16:43,184	module: autoreload          	process: 4058736	thread: 140303177580544	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:16:43,496	module: autoreload          	process: 4059728	thread: 140324175327232	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:17:34,144	module: autoreload          	process: 4059728	thread: 140324175327232	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:17:34,528	module: autoreload          	process: 4059833	thread: 139715092033536	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:19:26,195	module: autoreload          	process: 4059833	thread: 139715092033536	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:19:26,527	module: autoreload          	process: 4060055	thread: 140515744415744	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:21:10,721	module: autoreload          	process: 4060055	thread: 140515744415744	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:21:11,073	module: autoreload          	process: 4060263	thread: 140387370983424	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:22:44,581	module: autoreload          	process: 4060263	thread: 140387370983424	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:22:44,911	module: autoreload          	process: 4060438	thread: 139923116924928	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:33:03,231	module: autoreload          	process: 4060438	thread: 139923116924928	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:33:03,556	module: autoreload          	process: 4061679	thread: 140461700780032	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:34:19,656	module: autoreload          	process: 4061679	thread: 140461700780032	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:34:20,095	module: autoreload          	process: 4061833	thread: 140026495684608	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:35:19,129	module: autoreload          	process: 4061833	thread: 140026495684608	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:35:19,407	module: autoreload          	process: 4061948	thread: 140659275358208	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:35:19,419	module: views               	process: 4061948	thread: 140659275358208	message: Post: title=<django.forms.fields.CharField object at 0x7fedc7bf3a60>, text: content=<django.forms.widgets.Textarea object at 0x7fedc7bf39a0>, author: author=<django.forms.fields.ChoiceField object at 0x7fedc7c2ea10>
+INFO	2024-02-02 00:35:19,431	module: views               	process: 4061948	thread: 140659235046976	message: Post: title=<django.forms.fields.CharField object at 0x7fedc7c296c0>, text: content=<django.forms.widgets.Textarea object at 0x7fedc7c29720>, author: author=<django.forms.fields.ChoiceField object at 0x7fedc7c29510>
+INFO	2024-02-02 00:36:38,823	module: autoreload          	process: 4062103	thread: 139641844314112	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:39:42,824	module: autoreload          	process: 4062494	thread: 140707985461248	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:48:32,236	module: autoreload          	process: 4062494	thread: 140707985461248	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-02 00:48:32,563	module: autoreload          	process: 4063540	thread: 140074739073024	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:49:08,469	module: autoreload          	process: 4063619	thread: 139873530548224	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:50:18,549	module: autoreload          	process: 4063619	thread: 139873530548224	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:50:18,841	module: autoreload          	process: 4063768	thread: 139737047240704	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:50:22,827	module: basehttp            	process: 4063768	thread: 139736996394560	message: "GET /fourth_sem/add_post/ HTTP/1.1" 200 2281
+INFO	2024-02-02 00:50:24,484	module: basehttp            	process: 4063768	thread: 139736996394560	message: "GET /fourth_sem/add_post/ HTTP/1.1" 200 2281
+INFO	2024-02-02 00:52:35,152	module: autoreload          	process: 4063768	thread: 139737047240704	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:52:35,494	module: autoreload          	process: 4064059	thread: 139722501120000	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:52:37,759	module: basehttp            	process: 4064059	thread: 139722451420736	message: "GET /fourth_sem/add_post/ HTTP/1.1" 200 2281
+INFO	2024-02-02 00:52:39,759	module: basehttp            	process: 4064059	thread: 139722451420736	message: "GET /fourth_sem/add_post/ HTTP/1.1" 200 2281
+INFO	2024-02-02 00:55:40,536	module: autoreload          	process: 4064059	thread: 139722501120000	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:55:40,894	module: autoreload          	process: 4064446	thread: 140464700645376	message: Watching for file changes with StatReloader
+ERROR	2024-02-02 00:56:01,982	module: log                 	process: 4064446	thread: 140464649836096	message: Internal Server Error: /fourth_sem/add_post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 61, in add_post
+    logger.info(f'Post: {title=}, content: {content=}, author: {author=} publishing date: {Post.publishing_date}')
+AttributeError: type object 'Post' has no attribute 'publishing_date'
+ERROR	2024-02-02 00:56:01,983	module: basehttp            	process: 4064446	thread: 140464649836096	message: "POST /fourth_sem/add_post/ HTTP/1.1" 500 71500
+INFO	2024-02-02 00:58:01,135	module: autoreload          	process: 4064446	thread: 140464700645376	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 00:58:01,431	module: autoreload          	process: 4064732	thread: 140253208330240	message: Watching for file changes with StatReloader
+INFO	2024-02-02 00:58:05,568	module: views               	process: 4064732	thread: 140253157660224	message: Post: title='asdf', content: content='adsfadsf\r\nasdfasd\r\n\r\ngdsghdfg\r\nfghgfh\r\ndgf\r\njddfnfg\r\nmgffjgf\r\nfghfghfd', author: author=<Author: Author: Name2 Surname2, email: email2@test.com>, publish date: <django.db.models.query_utils.DeferredAttribute object at 0x7f8f3c55cf40>
+INFO	2024-02-02 00:58:05,839	module: basehttp            	process: 4064732	thread: 140253157660224	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 424
+INFO	2024-02-02 00:58:07,255	module: basehttp            	process: 4064732	thread: 140253157660224	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 00:58:25,253	module: views               	process: 4064732	thread: 140253157660224	message: Post: title='tygthgfh', content: content='gfhdfhfd\r\ndfhfdhdfhfg\r\njhgdjhgjh\r\ngfjytdt\r\n\r\njfsjfgjn\r\nfgjhfgjhsf', author: author=<Author: Author: Name3 Surname3, email: email3@test.com>, publish date: <django.db.models.query_utils.DeferredAttribute object at 0x7f8f3c55cf40>
+INFO	2024-02-02 00:58:25,854	module: basehttp            	process: 4064732	thread: 140253157660224	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 424
+INFO	2024-02-02 00:58:30,495	module: basehttp            	process: 4064732	thread: 140253157660224	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 01:00:56,260	module: autoreload          	process: 4064732	thread: 140253208330240	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 01:00:56,565	module: autoreload          	process: 4065142	thread: 140132698349568	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:01:05,061	module: basehttp            	process: 4065142	thread: 140132647605824	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+ERROR	2024-02-02 01:01:24,696	module: log                 	process: 4065142	thread: 140132647605824	message: Internal Server Error: /fourth_sem/add_post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 65, in add_post
+    f'author: {author=}, publish date: {datetime.date(*Post.publish_date)}')
+TypeError: datetime.date() argument after * must be an iterable, not DeferredAttribute
+ERROR	2024-02-02 01:01:24,697	module: basehttp            	process: 4065142	thread: 140132647605824	message: "POST /fourth_sem/add_post/ HTTP/1.1" 500 71138
+INFO	2024-02-02 01:09:08,291	module: autoreload          	process: 4065142	thread: 140132698349568	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 01:09:08,595	module: autoreload          	process: 4066098	thread: 139995052969984	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:09:26,925	module: basehttp            	process: 4066098	thread: 139994928772672	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 424
+INFO	2024-02-02 01:09:28,905	module: basehttp            	process: 4066098	thread: 139994928772672	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 01:09:54,962	module: basehttp            	process: 4066098	thread: 139994928772672	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 424
+INFO	2024-02-02 01:09:56,602	module: basehttp            	process: 4066098	thread: 139994928772672	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 01:13:06,208	module: autoreload          	process: 4066098	thread: 139995052969984	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-02 01:13:06,574	module: autoreload          	process: 4066601	thread: 140446731255808	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:14:20,762	module: autoreload          	process: 4066601	thread: 140446731255808	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-02 01:14:21,082	module: autoreload          	process: 4066772	thread: 140523682160640	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:15:49,702	module: autoreload          	process: 4066772	thread: 140523682160640	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 01:15:50,000	module: autoreload          	process: 4066952	thread: 139911626715136	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:15:53,716	module: basehttp            	process: 4066952	thread: 139911575975488	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 01:16:48,044	module: autoreload          	process: 4066952	thread: 139911626715136	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 01:16:48,343	module: autoreload          	process: 4067080	thread: 139908882784256	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:16:51,961	module: basehttp            	process: 4067080	thread: 139908760991296	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 01:17:09,911	module: basehttp            	process: 4067080	thread: 139908760991296	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 424
+INFO	2024-02-02 01:17:13,215	module: basehttp            	process: 4067080	thread: 139908760991296	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 01:25:23,376	module: autoreload          	process: 4067080	thread: 139908882784256	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-02 01:25:23,706	module: autoreload          	process: 4068203	thread: 140466314096640	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:26:42,938	module: autoreload          	process: 4068203	thread: 140466314096640	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-02 01:26:43,236	module: autoreload          	process: 4068364	thread: 139810648485888	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:27:46,141	module: autoreload          	process: 4068364	thread: 139810648485888	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-02 01:27:46,426	module: autoreload          	process: 4068493	thread: 139818710704128	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:27:52,669	module: basehttp            	process: 4068493	thread: 139818659911232	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 01:29:02,756	module: autoreload          	process: 4068493	thread: 139818710704128	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 01:29:03,057	module: autoreload          	process: 4068639	thread: 140481678086144	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:29:06,597	module: basehttp            	process: 4068639	thread: 140481627330112	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 01:31:27,319	module: autoreload          	process: 4068639	thread: 140481678086144	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-02 01:31:27,626	module: autoreload          	process: 4068918	thread: 139780625432576	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:31:32,316	module: basehttp            	process: 4068918	thread: 139780574758464	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+ERROR	2024-02-02 01:31:43,977	module: log                 	process: 4068918	thread: 139780574758464	message: Internal Server Error: /fourth_sem/add_post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 64, in add_post
+    publish_date = form.cleaned_data['publish_date']
+KeyError: 'publish_date'
+ERROR	2024-02-02 01:31:43,977	module: basehttp            	process: 4068918	thread: 139780574758464	message: "POST /fourth_sem/add_post/ HTTP/1.1" 500 70618
+INFO	2024-02-02 01:34:57,916	module: autoreload          	process: 4068918	thread: 139780625432576	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/third_sem/models.py changed, reloading.
+INFO	2024-02-02 01:34:58,208	module: autoreload          	process: 4069440	thread: 139655547756544	message: Watching for file changes with StatReloader
+ERROR	2024-02-02 01:35:06,302	module: log                 	process: 4069440	thread: 139655425029696	message: Internal Server Error: /fourth_sem/add_post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 64, in add_post
+    publish_date = form.cleaned_data['publish_date']
+KeyError: 'publish_date'
+ERROR	2024-02-02 01:35:06,303	module: basehttp            	process: 4069440	thread: 139655425029696	message: "POST /fourth_sem/add_post/ HTTP/1.1" 500 70618
+INFO	2024-02-02 01:35:50,154	module: autoreload          	process: 4069440	thread: 139655547756544	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/third_sem/models.py changed, reloading.
+INFO	2024-02-02 01:35:50,488	module: autoreload          	process: 4069559	thread: 140365276160000	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:37:57,500	module: autoreload          	process: 4069559	thread: 140365276160000	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 01:37:57,790	module: autoreload          	process: 4069831	thread: 140188102848512	message: Watching for file changes with StatReloader
+INFO	2024-02-02 01:38:01,660	module: basehttp            	process: 4069831	thread: 140188053079616	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 424
+INFO	2024-02-02 01:38:02,984	module: basehttp            	process: 4069831	thread: 140188053079616	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 01:38:16,982	module: basehttp            	process: 4069831	thread: 140188053079616	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 424
+INFO	2024-02-02 01:42:54,558	module: basehttp            	process: 4069831	thread: 140188053079616	message: "POST /fourth_sem/add_post/ HTTP/1.1" 200 2724
+INFO	2024-02-02 13:13:11,690	module: autoreload          	process: 608716	thread: 140082336964608	message: Watching for file changes with StatReloader
+INFO	2024-02-02 13:15:12,351	module: autoreload          	process: 621573	thread: 139921715933184	message: Watching for file changes with StatReloader
+WARNING	2024-02-02 13:15:20,198	module: log                 	process: 621573	thread: 139921665160768	message: Not Found: /les4/upload/
+WARNING	2024-02-02 13:15:20,199	module: basehttp            	process: 621573	thread: 139921665160768	message: "POST /les4/upload/ HTTP/1.1" 404 2557
+INFO	2024-02-02 13:16:20,527	module: autoreload          	process: 621573	thread: 139921715933184	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/urls.py changed, reloading.
+INFO	2024-02-02 13:16:20,828	module: autoreload          	process: 627985	thread: 140692030664704	message: Watching for file changes with StatReloader
+WARNING	2024-02-02 13:16:25,268	module: log                 	process: 627985	thread: 140691979908672	message: Not Found: /les4/upload/
+WARNING	2024-02-02 13:16:25,269	module: basehttp            	process: 627985	thread: 140691979908672	message: "POST /les4/upload/ HTTP/1.1" 404 2557
+WARNING	2024-02-02 13:16:37,110	module: log                 	process: 627985	thread: 140691979908672	message: Not Found: /
+WARNING	2024-02-02 13:16:37,111	module: basehttp            	process: 627985	thread: 140691979908672	message: "GET / HTTP/1.1" 404 2502
+INFO	2024-02-02 13:16:51,410	module: basehttp            	process: 627985	thread: 140691979908672	message: "GET /fourth_sem/games/ HTTP/1.1" 200 814
+WARNING	2024-02-02 13:16:59,009	module: log                 	process: 627985	thread: 140691979908672	message: Not Found: /fourth_sem/upload_image
+WARNING	2024-02-02 13:16:59,010	module: basehttp            	process: 627985	thread: 140691979908672	message: "GET /fourth_sem/upload_image HTTP/1.1" 404 3215
+INFO	2024-02-02 13:17:05,274	module: basehttp            	process: 627985	thread: 140691979908672	message: "GET /fourth_sem/upload HTTP/1.1" 301 0
+ERROR	2024-02-02 13:17:05,408	module: log                 	process: 627985	thread: 140691971515968	message: Internal Server Error: /fourth_sem/upload/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py", line 84, in upload_image
+    return render(request, 'fourthapp/upload_image.html', {'form': form})
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: fourthapp/upload_image.html
+ERROR	2024-02-02 13:17:05,410	module: basehttp            	process: 627985	thread: 140691971515968	message: "GET /fourth_sem/upload/ HTTP/1.1" 500 83581
+INFO	2024-02-02 13:17:47,373	module: autoreload          	process: 627985	thread: 140692030664704	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 13:17:47,686	module: autoreload          	process: 636531	thread: 139806473814016	message: Watching for file changes with StatReloader
+INFO	2024-02-02 13:17:50,187	module: basehttp            	process: 636531	thread: 139806352864832	message: "GET /fourth_sem/upload/ HTTP/1.1" 200 638
+INFO	2024-02-02 13:20:01,724	module: autoreload          	process: 636531	thread: 139806473814016	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/views.py changed, reloading.
+INFO	2024-02-02 13:20:02,023	module: autoreload          	process: 649334	thread: 139716202622976	message: Watching for file changes with StatReloader
+INFO	2024-02-02 13:20:06,078	module: basehttp            	process: 649334	thread: 139716151936576	message: "GET /fourth_sem/upload/ HTTP/1.1" 200 638
+INFO	2024-02-02 13:20:34,466	module: basehttp            	process: 649334	thread: 139716151936576	message: "POST /fourth_sem/upload/ HTTP/1.1" 200 638
+INFO	2024-02-02 13:21:39,719	module: autoreload          	process: 649334	thread: 139716202622976	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
+INFO	2024-02-02 13:21:40,034	module: autoreload          	process: 660007	thread: 140300598730752	message: Watching for file changes with StatReloader
