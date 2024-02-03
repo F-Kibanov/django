@@ -3846,3 +3846,876 @@ INFO	2024-02-02 13:20:06,078	module: basehttp            	process: 649334	thread
 INFO	2024-02-02 13:20:34,466	module: basehttp            	process: 649334	thread: 139716151936576	message: "POST /fourth_sem/upload/ HTTP/1.1" 200 638
 INFO	2024-02-02 13:21:39,719	module: autoreload          	process: 649334	thread: 139716202622976	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fourth_sem/forms.py changed, reloading.
 INFO	2024-02-02 13:21:40,034	module: autoreload          	process: 660007	thread: 140300598730752	message: Watching for file changes with StatReloader
+INFO	2024-02-02 21:57:44,566	module: autoreload          	process: 2038689	thread: 140700050055168	message: Watching for file changes with StatReloader
+WARNING	2024-02-02 21:57:54,161	module: log                 	process: 2038689	thread: 140699999340096	message: Not Found: /favicon.ico
+WARNING	2024-02-02 21:57:54,161	module: basehttp            	process: 2038689	thread: 140699999340096	message: "GET /favicon.ico HTTP/1.1" 404 2553
+WARNING	2024-02-02 21:57:57,255	module: log                 	process: 2038689	thread: 140699999340096	message: Not Found: /les4/user/
+WARNING	2024-02-02 21:57:57,256	module: basehttp            	process: 2038689	thread: 140699999340096	message: "GET /les4/user/ HTTP/1.1" 404 2550
+INFO	2024-02-02 21:57:58,915	module: basehttp            	process: 2038689	thread: 140699999340096	message: "GET /fourth_sem/upload/ HTTP/1.1" 200 638
+INFO	2024-02-02 22:09:14,262	module: autoreload          	process: 2041357	thread: 140083624886272	message: Watching for file changes with StatReloader
+INFO	2024-02-02 22:09:16,710	module: basehttp            	process: 2041357	thread: 140083574249024	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:09:16,731	module: basehttp            	process: 2041357	thread: 140083574249024	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-02 22:13:53,271	module: autoreload          	process: 2041357	thread: 140083624886272	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-02 22:13:53,644	module: autoreload          	process: 2041930	thread: 139970320482304	message: Watching for file changes with StatReloader
+INFO	2024-02-02 22:16:18,114	module: autoreload          	process: 2041930	thread: 139970320482304	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-02 22:16:18,432	module: autoreload          	process: 2042237	thread: 139661834657792	message: Watching for file changes with StatReloader
+INFO	2024-02-02 22:17:35,400	module: autoreload          	process: 2042237	thread: 139661834657792	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-02 22:17:35,740	module: autoreload          	process: 2042389	thread: 140058913529856	message: Watching for file changes with StatReloader
+INFO	2024-02-02 22:19:33,131	module: autoreload          	process: 2042622	thread: 140635823173632	message: Watching for file changes with StatReloader
+INFO	2024-02-02 22:19:43,845	module: basehttp            	process: 2042622	thread: 140635772438080	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:19:43,903	module: basehttp            	process: 2042622	thread: 140635772438080	message: "GET /admin/ HTTP/1.1" 200 5941
+INFO	2024-02-02 22:21:45,588	module: autoreload          	process: 2042622	thread: 140635823173632	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-02 22:21:45,929	module: autoreload          	process: 2042899	thread: 139863366819840	message: Watching for file changes with StatReloader
+INFO	2024-02-02 22:23:13,891	module: autoreload          	process: 2042899	thread: 139863366819840	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-02 22:23:14,217	module: autoreload          	process: 2043092	thread: 140046847295488	message: Watching for file changes with StatReloader
+INFO	2024-02-02 22:23:31,660	module: autoreload          	process: 2043092	thread: 140046847295488	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-02 22:23:32,002	module: autoreload          	process: 2043126	thread: 139660996276224	message: Watching for file changes with StatReloader
+INFO	2024-02-02 22:24:11,729	module: autoreload          	process: 2043126	thread: 139660996276224	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-02 22:24:12,053	module: autoreload          	process: 2043213	thread: 140250462834688	message: Watching for file changes with StatReloader
+INFO	2024-02-02 22:24:14,108	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/ HTTP/1.1" 200 7528
+INFO	2024-02-02 22:24:16,253	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/third_sem/author/ HTTP/1.1" 200 14649
+INFO	2024-02-02 22:24:16,269	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:24:21,683	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/third_sem/author/11/change/ HTTP/1.1" 200 12477
+INFO	2024-02-02 22:24:21,702	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:24:25,269	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/third_sem/author/ HTTP/1.1" 200 14649
+INFO	2024-02-02 22:24:26,241	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/ HTTP/1.1" 200 7528
+INFO	2024-02-02 22:24:27,956	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/third_sem/coin/ HTTP/1.1" 200 8557
+INFO	2024-02-02 22:24:27,970	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:24:30,197	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 35495
+INFO	2024-02-02 22:24:30,209	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:24:35,564	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/third_sem/post/53/change/ HTTP/1.1" 200 14964
+INFO	2024-02-02 22:24:35,577	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:24:38,424	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 35495
+INFO	2024-02-02 22:24:39,270	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/third_sem/coin/ HTTP/1.1" 200 8557
+INFO	2024-02-02 22:24:40,561	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/ HTTP/1.1" 200 7528
+WARNING	2024-02-02 22:26:47,871	module: log                 	process: 2043213	thread: 140250344060480	message: Not Found: /
+WARNING	2024-02-02 22:26:47,871	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET / HTTP/1.1" 404 2502
+INFO	2024-02-02 22:26:53,708	module: basehttp            	process: 2043213	thread: 140250344060480	message: "GET /admin/ HTTP/1.1" 200 7528
+INFO	2024-02-02 22:29:16,432	module: autoreload          	process: 2043213	thread: 140250462834688	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-02 22:29:16,796	module: autoreload          	process: 2043772	thread: 140253043507200	message: Watching for file changes with StatReloader
+INFO	2024-02-02 22:29:17,687	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/add/ HTTP/1.1" 200 16504
+INFO	2024-02-02 22:29:17,709	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:30:52,773	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:30:52,811	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/ HTTP/1.1" 200 10668
+INFO	2024-02-02 22:30:52,870	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:30:58,526	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/add/ HTTP/1.1" 200 16504
+INFO	2024-02-02 22:30:58,538	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:32:36,748	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:32:36,770	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/ HTTP/1.1" 200 10992
+INFO	2024-02-02 22:32:36,824	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:32:39,485	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/add/ HTTP/1.1" 200 16504
+INFO	2024-02-02 22:32:39,498	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:33:35,041	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:33:35,077	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/ HTTP/1.1" 200 11313
+INFO	2024-02-02 22:33:35,134	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:33:55,591	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/add/ HTTP/1.1" 200 12397
+INFO	2024-02-02 22:33:55,604	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:34:15,549	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/add/ HTTP/1.1" 200 12907
+INFO	2024-02-02 22:34:15,563	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:34:26,270	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/add/ HTTP/1.1" 200 12907
+INFO	2024-02-02 22:34:26,284	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:34:59,475	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:34:59,538	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27493
+INFO	2024-02-02 22:34:59,595	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:35:47,724	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:35:47,765	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/add/ HTTP/1.1" 200 12691
+INFO	2024-02-02 22:35:47,838	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:36:31,227	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:36:31,281	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 27493
+INFO	2024-02-02 22:36:31,337	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:37:18,180	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:37:18,219	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/add/ HTTP/1.1" 200 12691
+INFO	2024-02-02 22:37:18,296	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:37:43,877	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/add/ HTTP/1.1" 200 12679
+INFO	2024-02-02 22:37:43,891	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:38:05,859	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/add/ HTTP/1.1" 200 12679
+INFO	2024-02-02 22:38:05,873	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:38:40,723	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/add/ HTTP/1.1" 200 12679
+INFO	2024-02-02 22:38:40,737	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:39:13,352	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:39:13,412	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27488
+INFO	2024-02-02 22:39:13,470	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:39:58,659	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:39:58,692	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15240
+INFO	2024-02-02 22:39:58,762	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:39:58,786	module: basehttp            	process: 2043772	thread: 140252985329216	message: "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO	2024-02-02 22:40:11,728	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 27211
+INFO	2024-02-02 22:40:11,742	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:40:19,222	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:40:19,263	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15241
+INFO	2024-02-02 22:40:19,314	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:41:53,696	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27199
+INFO	2024-02-02 22:41:53,710	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:42:23,485	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:42:23,522	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15240
+INFO	2024-02-02 22:42:23,596	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:42:25,510	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 27203
+INFO	2024-02-02 22:42:25,524	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:43:21,280	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15018
+INFO	2024-02-02 22:43:22,548	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27217
+INFO	2024-02-02 22:43:37,928	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15018
+INFO	2024-02-02 22:43:37,940	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:43:39,257	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27203
+INFO	2024-02-02 22:43:39,270	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:43:50,951	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:43:50,996	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15241
+INFO	2024-02-02 22:43:51,074	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:44:02,523	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27217
+INFO	2024-02-02 22:44:02,538	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:44:31,901	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:44:31,927	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15240
+INFO	2024-02-02 22:44:32,008	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:44:43,304	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-02 22:44:44,651	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:44:44,672	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-02 22:45:00,703	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:45:13,606	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:45:29,598	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:45:41,679	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:46:02,396	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:46:17,471	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:46:17,510	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 200 11266
+INFO	2024-02-02 22:46:22,308	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27253
+INFO	2024-02-02 22:46:22,324	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:47:06,759	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/password/ HTTP/1.1" 200 9147
+INFO	2024-02-02 22:47:47,219	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/4/password/ HTTP/1.1" 200 9363
+INFO	2024-02-02 22:48:20,940	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/4/password/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:48:20,995	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27402
+INFO	2024-02-02 22:48:21,070	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:48:25,574	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15018
+INFO	2024-02-02 22:48:25,588	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:48:30,034	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 27203
+INFO	2024-02-02 22:48:30,050	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:48:32,844	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/3/password/ HTTP/1.1" 200 9152
+INFO	2024-02-02 22:48:46,981	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/3/password/ HTTP/1.1" 200 9368
+INFO	2024-02-02 22:49:02,731	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/3/password/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:49:02,791	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 27352
+INFO	2024-02-02 22:49:02,865	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:49:05,293	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15018
+INFO	2024-02-02 22:49:05,307	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:49:07,408	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27212
+INFO	2024-02-02 22:49:07,422	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:49:09,251	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/password/ HTTP/1.1" 200 9152
+INFO	2024-02-02 22:49:25,036	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:49:25,111	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27361
+INFO	2024-02-02 22:49:25,169	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:49:34,409	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-02 22:49:35,926	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:49:35,949	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-02 22:49:46,218	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:49:56,572	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:50:05,093	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:50:16,099	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:50:26,118	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:50:34,497	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:50:46,243	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:50:54,482	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:51:02,845	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:52:01,406	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:52:01,444	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 200 11275
+INFO	2024-02-02 22:52:03,883	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15018
+INFO	2024-02-02 22:52:03,899	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:52:06,408	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27212
+INFO	2024-02-02 22:52:06,423	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:52:09,359	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/password/ HTTP/1.1" 200 9152
+INFO	2024-02-02 22:52:29,469	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:52:29,528	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27361
+INFO	2024-02-02 22:52:29,605	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:52:33,335	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-02 22:52:35,539	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:52:35,563	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-02 22:52:46,922	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:52:55,471	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:53:04,319	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:53:11,111	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:53:49,904	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:53:49,937	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 200 11275
+INFO	2024-02-02 22:53:52,265	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15018
+INFO	2024-02-02 22:53:52,279	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:54:25,661	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27212
+INFO	2024-02-02 22:54:25,677	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:54:27,174	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/password/ HTTP/1.1" 200 9152
+INFO	2024-02-02 22:54:56,317	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/2/password/ HTTP/1.1" 200 9368
+INFO	2024-02-02 22:55:12,387	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:55:12,443	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27361
+INFO	2024-02-02 22:55:12,498	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:55:15,267	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-02 22:55:16,657	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:55:16,674	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-02 22:55:24,489	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:55:33,472	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO	2024-02-02 22:57:02,060	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:57:02,097	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 200 11281
+INFO	2024-02-02 22:57:03,772	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15018
+INFO	2024-02-02 22:57:03,788	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:57:05,926	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27253
+INFO	2024-02-02 22:57:05,943	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:57:12,376	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:57:12,406	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/add/ HTTP/1.1" 200 12690
+INFO	2024-02-02 22:57:12,465	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:57:16,277	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15018
+INFO	2024-02-02 22:57:16,290	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:57:18,295	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 27203
+INFO	2024-02-02 22:57:18,307	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:57:23,363	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:57:23,397	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15241
+INFO	2024-02-02 22:57:23,453	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:57:25,322	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27212
+INFO	2024-02-02 22:57:25,334	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:57:30,110	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:57:30,147	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15241
+INFO	2024-02-02 22:57:30,224	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:57:36,959	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27261
+INFO	2024-02-02 22:57:36,975	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:57:40,415	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/password/ HTTP/1.1" 200 9147
+INFO	2024-02-02 22:57:52,882	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/4/password/ HTTP/1.1" 200 9363
+INFO	2024-02-02 22:58:06,551	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/4/password/ HTTP/1.1" 200 9363
+INFO	2024-02-02 22:58:21,463	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/4/password/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:58:21,524	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27410
+INFO	2024-02-02 22:58:21,585	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:58:25,162	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15018
+INFO	2024-02-02 22:58:25,177	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:58:27,037	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 27211
+INFO	2024-02-02 22:58:27,050	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:58:29,240	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/3/password/ HTTP/1.1" 200 9152
+INFO	2024-02-02 22:58:35,244	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/3/password/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:58:35,300	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 27360
+INFO	2024-02-02 22:58:35,358	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:58:36,959	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/ HTTP/1.1" 200 15018
+INFO	2024-02-02 22:58:36,972	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:58:38,444	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27220
+INFO	2024-02-02 22:58:38,458	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:58:40,388	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/password/ HTTP/1.1" 200 9152
+INFO	2024-02-02 22:58:49,032	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:58:49,097	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27369
+INFO	2024-02-02 22:58:49,152	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:58:51,769	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-02 22:58:53,259	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:58:53,284	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-02 22:58:59,414	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 22:58:59,426	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 200 5432
+INFO	2024-02-02 22:59:03,419	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/ HTTP/1.1" 200 7753
+INFO	2024-02-02 22:59:06,070	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/2/change/ HTTP/1.1" 200 8580
+INFO	2024-02-02 22:59:06,083	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 22:59:11,986	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/ HTTP/1.1" 200 7753
+INFO	2024-02-02 23:00:09,456	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 200 5432
+INFO	2024-02-02 23:00:14,233	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 23:00:14,257	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 200 5432
+INFO	2024-02-02 23:00:17,547	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 200 5432
+INFO	2024-02-02 23:00:21,079	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/ HTTP/1.1" 200 7753
+INFO	2024-02-02 23:00:23,740	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/auth/group/1/change/ HTTP/1.1" 200 8359
+INFO	2024-02-02 23:00:23,791	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-02 23:01:25,061	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-02 23:01:26,408	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 23:01:26,425	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-02 23:01:40,538	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-02 23:01:40,562	module: basehttp            	process: 2043772	thread: 140252993721920	message: "GET /admin/ HTTP/1.1" 200 4889
+INFO	2024-02-02 23:02:02,596	module: basehttp            	process: 2043772	thread: 140252993721920	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-03 09:33:11,458	module: autoreload          	process: 97284	thread: 140367581224960	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:33:20,160	module: basehttp            	process: 97284	thread: 140367530493504	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 09:33:20,317	module: basehttp            	process: 97284	thread: 140367530493504	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+WARNING	2024-02-03 09:33:21,602	module: log                 	process: 97284	thread: 140367530493504	message: Not Found: /favicon.ico
+WARNING	2024-02-03 09:33:21,603	module: basehttp            	process: 97284	thread: 140367530493504	message: "GET /favicon.ico HTTP/1.1" 404 2553
+INFO	2024-02-03 09:33:27,893	module: basehttp            	process: 97284	thread: 140367530493504	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 09:33:27,941	module: basehttp            	process: 97284	thread: 140367530493504	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 09:34:36,585	module: basehttp            	process: 97284	thread: 140367530493504	message: "GET /admin/third_sem/author/ HTTP/1.1" 200 14649
+INFO	2024-02-03 09:34:36,759	module: basehttp            	process: 97284	thread: 140367530493504	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 09:37:38,885	module: autoreload          	process: 97284	thread: 140367581224960	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:37:39,299	module: autoreload          	process: 125451	thread: 140338996645888	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:41:01,355	module: autoreload          	process: 125451	thread: 140338996645888	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:41:01,688	module: autoreload          	process: 149302	thread: 140410821390336	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:41:35,185	module: autoreload          	process: 149302	thread: 140410821390336	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:41:35,590	module: autoreload          	process: 153974	thread: 140344307232768	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:42:36,445	module: autoreload          	process: 153974	thread: 140344307232768	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:42:36,804	module: autoreload          	process: 160425	thread: 140362849013760	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:43:12,387	module: autoreload          	process: 160425	thread: 140362849013760	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:43:12,713	module: autoreload          	process: 163420	thread: 140285685022720	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:43:36,140	module: autoreload          	process: 163420	thread: 140285685022720	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:43:36,455	module: autoreload          	process: 165779	thread: 140037620391936	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:43:47,698	module: autoreload          	process: 165779	thread: 140037620391936	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:43:48,025	module: autoreload          	process: 168123	thread: 139995588485120	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:44:06,446	module: autoreload          	process: 168123	thread: 139995588485120	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:44:06,783	module: autoreload          	process: 170484	thread: 140270640664576	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:45:09,757	module: autoreload          	process: 170484	thread: 140270640664576	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:45:10,080	module: autoreload          	process: 177547	thread: 140529858859008	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:45:22,429	module: autoreload          	process: 177547	thread: 140529858859008	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:45:22,744	module: autoreload          	process: 177575	thread: 139828744630272	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:45:59,389	module: autoreload          	process: 177575	thread: 139828744630272	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:45:59,748	module: autoreload          	process: 182276	thread: 140142179717120	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:46:24,696	module: basehttp            	process: 182276	thread: 140142129006144	message: "GET /admin/third_sem/author/ HTTP/1.1" 200 18666
+INFO	2024-02-03 09:46:24,711	module: basehttp            	process: 182276	thread: 140142129006144	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 09:47:31,284	module: basehttp            	process: 182276	thread: 140142129006144	message: "GET /admin/third_sem/author/?q=Name1 HTTP/1.1" 200 14513
+INFO	2024-02-03 09:47:31,298	module: basehttp            	process: 182276	thread: 140142129006144	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 09:47:48,162	module: basehttp            	process: 182276	thread: 140142129006144	message: "GET /admin/third_sem/author/?q= HTTP/1.1" 200 19169
+INFO	2024-02-03 09:47:48,174	module: basehttp            	process: 182276	thread: 140142129006144	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 09:49:19,112	module: autoreload          	process: 182276	thread: 140142179717120	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:49:19,468	module: autoreload          	process: 205737	thread: 139769428090880	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:50:05,345	module: autoreload          	process: 205737	thread: 139769428090880	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:50:05,669	module: autoreload          	process: 210452	thread: 139799230771200	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:50:34,242	module: autoreload          	process: 210452	thread: 139799230771200	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:50:34,582	module: autoreload          	process: 212830	thread: 139948513038336	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:51:29,599	module: autoreload          	process: 212830	thread: 139948513038336	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:51:29,913	module: autoreload          	process: 219859	thread: 140163463905280	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:51:53,427	module: autoreload          	process: 219859	thread: 140163463905280	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:51:53,768	module: autoreload          	process: 222223	thread: 139821353193472	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:52:15,234	module: autoreload          	process: 222223	thread: 139821353193472	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:52:15,569	module: autoreload          	process: 224586	thread: 140240737087488	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:52:21,828	module: basehttp            	process: 224586	thread: 140240614323776	message: "GET /admin/third_sem/author/?q= HTTP/1.1" 200 19169
+INFO	2024-02-03 09:52:21,844	module: basehttp            	process: 224586	thread: 140240614323776	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 09:52:24,965	module: basehttp            	process: 224586	thread: 140240614323776	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 09:52:24,979	module: basehttp            	process: 224586	thread: 140240614323776	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR	2024-02-03 09:53:47,751	module: log                 	process: 224586	thread: 140240614323776	message: Internal Server Error: /admin/third_sem/post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1981, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 862, in get_changelist_instance
+    return ChangeList(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 144, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 577, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1185, in get_search_results
+    queryset = queryset.filter(models.Q.create(term_queries))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1461, in build_filter
+    return self._add_q(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1461, in build_filter
+    return self._add_q(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1484, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1296, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1761, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'name' into field. Choices are: author, author_id, category, content, id, is_published, publish_date, title, views
+ERROR	2024-02-03 09:53:47,754	module: basehttp            	process: 224586	thread: 140240614323776	message: "GET /admin/third_sem/post/?q=2 HTTP/1.1" 500 209545
+INFO	2024-02-03 09:55:26,516	module: autoreload          	process: 224586	thread: 140240737087488	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:55:26,851	module: autoreload          	process: 245729	thread: 140087461908480	message: Watching for file changes with StatReloader
+ERROR	2024-02-03 09:55:30,021	module: log                 	process: 245729	thread: 140087337678400	message: Internal Server Error: /admin/third_sem/post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1981, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 862, in get_changelist_instance
+    return ChangeList(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 144, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 577, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1185, in get_search_results
+    queryset = queryset.filter(models.Q.create(term_queries))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1461, in build_filter
+    return self._add_q(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1461, in build_filter
+    return self._add_q(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1484, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1296, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1761, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword '['title', 'author', 'content']' into field. Choices are: author, author_id, category, content, id, is_published, publish_date, title, views
+ERROR	2024-02-03 09:55:30,023	module: basehttp            	process: 245729	thread: 140087337678400	message: "GET /admin/third_sem/post/?q=2 HTTP/1.1" 500 211228
+INFO	2024-02-03 09:56:25,807	module: autoreload          	process: 245729	thread: 140087461908480	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:56:26,111	module: autoreload          	process: 252778	thread: 139640400560128	message: Watching for file changes with StatReloader
+ERROR	2024-02-03 09:56:28,763	module: log                 	process: 252778	thread: 139640349922880	message: Internal Server Error: /admin/third_sem/post/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1981, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 862, in get_changelist_instance
+    return ChangeList(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 144, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 577, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1185, in get_search_results
+    queryset = queryset.filter(models.Q.create(term_queries))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1461, in build_filter
+    return self._add_q(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1461, in build_filter
+    return self._add_q(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1484, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1296, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1761, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword '['title']' into field. Choices are: author, author_id, category, content, id, is_published, publish_date, title, views
+ERROR	2024-02-03 09:56:28,766	module: basehttp            	process: 252778	thread: 139640349922880	message: "GET /admin/third_sem/post/?q=2 HTTP/1.1" 500 210080
+INFO	2024-02-03 09:58:51,223	module: autoreload          	process: 252778	thread: 139640400560128	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:58:51,525	module: autoreload          	process: 269223	thread: 140163062030336	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:58:53,982	module: basehttp            	process: 269223	thread: 140163011221056	message: "GET /admin/third_sem/post/?q=2 HTTP/1.1" 200 19632
+INFO	2024-02-03 09:58:53,999	module: basehttp            	process: 269223	thread: 140163011221056	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 09:59:11,022	module: autoreload          	process: 269223	thread: 140163062030336	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 09:59:11,329	module: autoreload          	process: 271590	thread: 139767827812352	message: Watching for file changes with StatReloader
+INFO	2024-02-03 09:59:13,968	module: basehttp            	process: 271590	thread: 139767777072704	message: "GET /admin/third_sem/post/?q=2 HTTP/1.1" 200 20514
+INFO	2024-02-03 09:59:13,982	module: basehttp            	process: 271590	thread: 139767777072704	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 09:59:21,269	module: basehttp            	process: 271590	thread: 139767777072704	message: "GET /admin/third_sem/post/?q=2 HTTP/1.1" 200 20514
+INFO	2024-02-03 09:59:21,283	module: basehttp            	process: 271590	thread: 139767777072704	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 09:59:36,866	module: basehttp            	process: 271590	thread: 139767777072704	message: "GET /admin/third_sem/post/?publish_date__gte=2024-01-01+00%3A00%3A00%2B00%3A00&publish_date__lt=2025-01-01+00%3A00%3A00%2B00%3A00&q=2 HTTP/1.1" 200 26007
+INFO	2024-02-03 09:59:36,878	module: basehttp            	process: 271590	thread: 139767777072704	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 09:59:49,991	module: basehttp            	process: 271590	thread: 139767777072704	message: "GET /admin/third_sem/post/?q=&publish_date__gte=2024-01-01+00%3A00%3A00%2B00%3A00&publish_date__lt=2025-01-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 57414
+INFO	2024-02-03 09:59:50,005	module: basehttp            	process: 271590	thread: 139767777072704	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 10:45:32,837	module: basehttp            	process: 271590	thread: 139767777072704	message: "GET /admin/third_sem/post/?q=&publish_date__gte=2024-01-01+00%3A00%3A00%2B00%3A00&publish_date__lt=2025-01-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 57414
+INFO	2024-02-03 10:45:32,851	module: basehttp            	process: 271590	thread: 139767777072704	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 10:52:36,414	module: autoreload          	process: 271590	thread: 139767827812352	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 10:52:37,013	module: autoreload          	process: 630104	thread: 139702320218112	message: Watching for file changes with StatReloader
+INFO	2024-02-03 10:53:24,902	module: autoreload          	process: 630104	thread: 139702320218112	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 10:53:25,225	module: autoreload          	process: 635212	thread: 140072611840000	message: Watching for file changes with StatReloader
+INFO	2024-02-03 10:54:15,070	module: autoreload          	process: 635212	thread: 140072611840000	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 10:54:15,386	module: autoreload          	process: 639967	thread: 139964778590208	message: Watching for file changes with StatReloader
+INFO	2024-02-03 10:56:11,311	module: autoreload          	process: 639967	thread: 139964778590208	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 10:56:11,651	module: autoreload          	process: 654050	thread: 140045542612992	message: Watching for file changes with StatReloader
+INFO	2024-02-03 10:56:42,317	module: autoreload          	process: 654050	thread: 140045542612992	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 10:56:42,638	module: autoreload          	process: 656424	thread: 139776315412480	message: Watching for file changes with StatReloader
+INFO	2024-02-03 10:57:08,206	module: autoreload          	process: 656424	thread: 139776315412480	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 10:57:08,538	module: autoreload          	process: 658796	thread: 140472861519872	message: Watching for file changes with StatReloader
+INFO	2024-02-03 10:58:59,195	module: autoreload          	process: 658796	thread: 140472861519872	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 10:58:59,537	module: autoreload          	process: 672858	thread: 139706856816640	message: Watching for file changes with StatReloader
+INFO	2024-02-03 10:59:59,597	module: autoreload          	process: 672858	thread: 139706856816640	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 10:59:59,919	module: autoreload          	process: 679962	thread: 140324908208128	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:00:58,809	module: autoreload          	process: 679962	thread: 140324908208128	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:00:59,123	module: autoreload          	process: 684949	thread: 139680281767936	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:01:22,577	module: autoreload          	process: 684949	thread: 139680281767936	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:01:22,906	module: autoreload          	process: 689665	thread: 140656745713664	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:03:12,793	module: autoreload          	process: 689665	thread: 140656745713664	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:03:13,103	module: autoreload          	process: 701411	thread: 139907641450496	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:04:21,950	module: basehttp            	process: 701411	thread: 139907590690368	message: "GET /admin/third_sem/post/?q=&publish_date__gte=2024-01-01+00%3A00%3A00%2B00%3A00&publish_date__lt=2025-01-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 57414
+INFO	2024-02-03 11:04:21,965	module: basehttp            	process: 701411	thread: 139907590690368	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:04:31,472	module: autoreload          	process: 701411	thread: 139907641450496	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:04:31,901	module: autoreload          	process: 710796	thread: 140326545174528	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:04:36,211	module: basehttp            	process: 710796	thread: 140326494471744	message: "GET /admin/third_sem/author/ HTTP/1.1" 200 18666
+INFO	2024-02-03 11:04:36,226	module: basehttp            	process: 710796	thread: 140326494471744	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:05:06,885	module: basehttp            	process: 710796	thread: 140326494471744	message: "GET /admin/third_sem/author/1/change/ HTTP/1.1" 200 12477
+INFO	2024-02-03 11:05:06,906	module: basehttp            	process: 710796	thread: 140326494471744	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:05:32,390	module: basehttp            	process: 710796	thread: 140326494471744	message: "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+INFO	2024-02-03 11:06:57,273	module: autoreload          	process: 710796	thread: 140326545174528	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:06:57,631	module: autoreload          	process: 726231	thread: 140111040364544	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:07:00,491	module: basehttp            	process: 726231	thread: 140110989628992	message: "GET /admin/third_sem/author/1/change/ HTTP/1.1" 200 12603
+INFO	2024-02-03 11:07:00,504	module: basehttp            	process: 726231	thread: 140110989628992	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:10:00,771	module: autoreload          	process: 726231	thread: 140111040364544	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:10:01,120	module: autoreload          	process: 746076	thread: 140681101385728	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:12:28,756	module: autoreload          	process: 746076	thread: 140681101385728	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:12:29,085	module: autoreload          	process: 762548	thread: 140697481355264	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:14:47,262	module: autoreload          	process: 762548	thread: 140697481355264	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:14:47,607	module: autoreload          	process: 778969	thread: 139936940253184	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:15:31,431	module: autoreload          	process: 778969	thread: 139936940253184	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:15:31,759	module: autoreload          	process: 783675	thread: 140028159266816	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:17:09,243	module: autoreload          	process: 783675	thread: 140028159266816	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:17:09,561	module: autoreload          	process: 795407	thread: 140176800370688	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:17:45,296	module: autoreload          	process: 795407	thread: 140176800370688	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:17:45,626	module: autoreload          	process: 797792	thread: 140569169858560	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:17:56,969	module: autoreload          	process: 797792	thread: 140569169858560	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:17:57,283	module: autoreload          	process: 800126	thread: 140324344213504	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:21:30,420	module: autoreload          	process: 800126	thread: 140324344213504	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:21:30,730	module: autoreload          	process: 823626	thread: 140419586916352	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:21:33,659	module: basehttp            	process: 823626	thread: 140419536262720	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:21:33,673	module: basehttp            	process: 823626	thread: 140419536262720	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR	2024-02-03 11:21:35,979	module: log                 	process: 823626	thread: 140419536262720	message: Internal Server Error: /admin/third_sem/post/1/change/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 835, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/models.py", line 651, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/models.py", line 309, in __new__
+    fields = fields_for_model(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/models.py", line 204, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'publish_date' cannot be specified for Post model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1944, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1837, in _changeform_view
+    ModelForm = self.get_form(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 837, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'publish_date' cannot be specified for Post model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class PostAdmin.
+ERROR	2024-02-03 11:21:35,981	module: basehttp            	process: 823626	thread: 140419536262720	message: "GET /admin/third_sem/post/1/change/ HTTP/1.1" 500 155065
+INFO	2024-02-03 11:22:33,690	module: autoreload          	process: 823626	thread: 140419586916352	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:22:34,005	module: autoreload          	process: 830675	thread: 139891380613120	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:22:36,650	module: basehttp            	process: 830675	thread: 139891329857088	message: "GET /admin/third_sem/post/1/change/ HTTP/1.1" 200 15937
+INFO	2024-02-03 11:22:36,678	module: basehttp            	process: 830675	thread: 139891329857088	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:24:47,136	module: basehttp            	process: 830675	thread: 139891329857088	message: "GET /admin/third_sem/post/1/change/ HTTP/1.1" 200 15937
+INFO	2024-02-03 11:24:47,150	module: basehttp            	process: 830675	thread: 139891329857088	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:25:06,955	module: basehttp            	process: 830675	thread: 139891329857088	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:25:06,971	module: basehttp            	process: 830675	thread: 139891329857088	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:26:14,826	module: autoreload          	process: 830675	thread: 139891380613120	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:26:15,179	module: autoreload          	process: 856484	thread: 140233882284032	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:26:25,909	module: basehttp            	process: 856484	thread: 140233831515712	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:26:25,924	module: basehttp            	process: 856484	thread: 140233831515712	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:26:29,375	module: basehttp            	process: 856484	thread: 140233831515712	message: "GET /admin/third_sem/post/6/change/ HTTP/1.1" 200 15937
+INFO	2024-02-03 11:26:29,391	module: basehttp            	process: 856484	thread: 140233831515712	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:27:59,888	module: basehttp            	process: 856484	thread: 140233831515712	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:30:49,734	module: autoreload          	process: 856484	thread: 140233882284032	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:30:50,051	module: autoreload          	process: 887028	thread: 139906631004160	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:30:52,327	module: basehttp            	process: 887028	thread: 139906580186688	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:30:52,345	module: basehttp            	process: 887028	thread: 139906580186688	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:32:02,376	module: autoreload          	process: 887028	thread: 139906631004160	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:32:02,685	module: autoreload          	process: 894172	thread: 140160963248128	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:32:05,437	module: basehttp            	process: 894172	thread: 140160912492096	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:32:05,453	module: basehttp            	process: 894172	thread: 140160912492096	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:32:08,650	module: basehttp            	process: 894172	thread: 140160912492096	message: "GET /admin/third_sem/post/21/change/ HTTP/1.1" 200 15939
+INFO	2024-02-03 11:32:08,664	module: basehttp            	process: 894172	thread: 140160912492096	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:32:10,912	module: basehttp            	process: 894172	thread: 140160912492096	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:33:16,024	module: autoreload          	process: 894172	thread: 140160963248128	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:33:16,335	module: autoreload          	process: 903529	thread: 140406895456256	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:33:18,936	module: basehttp            	process: 903529	thread: 140406775871040	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:33:18,952	module: basehttp            	process: 903529	thread: 140406775871040	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:33:25,307	module: basehttp            	process: 903529	thread: 140406775871040	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-03 11:33:26,572	module: basehttp            	process: 903529	thread: 140406775871040	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 11:33:26,598	module: basehttp            	process: 903529	thread: 140406775871040	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-03 11:33:34,590	module: basehttp            	process: 903529	thread: 140406775871040	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 11:33:34,635	module: basehttp            	process: 903529	thread: 140406775871040	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 11:33:36,305	module: basehttp            	process: 903529	thread: 140406775871040	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:33:36,318	module: basehttp            	process: 903529	thread: 140406775871040	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:34:09,586	module: basehttp            	process: 903529	thread: 140406775871040	message: "GET /admin/third_sem/post/21/change/ HTTP/1.1" 200 15939
+INFO	2024-02-03 11:34:09,602	module: basehttp            	process: 903529	thread: 140406775871040	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:34:21,990	module: basehttp            	process: 903529	thread: 140406775871040	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:37:36,474	module: autoreload          	process: 903529	thread: 140406895456256	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:37:36,793	module: autoreload          	process: 931676	thread: 140132745805824	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:37:39,360	module: basehttp            	process: 931676	thread: 140132695152192	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:37:39,374	module: basehttp            	process: 931676	thread: 140132695152192	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:37:45,036	module: basehttp            	process: 931676	thread: 140132695152192	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-03 11:37:46,162	module: basehttp            	process: 931676	thread: 140132695152192	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 11:37:46,193	module: basehttp            	process: 931676	thread: 140132695152192	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-03 11:37:52,748	module: basehttp            	process: 931676	thread: 140132695152192	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 11:37:52,796	module: basehttp            	process: 931676	thread: 140132695152192	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 11:37:55,163	module: basehttp            	process: 931676	thread: 140132695152192	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44051
+INFO	2024-02-03 11:37:55,175	module: basehttp            	process: 931676	thread: 140132695152192	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:38:55,335	module: autoreload          	process: 931676	thread: 140132745805824	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:38:55,649	module: autoreload          	process: 941033	thread: 140405317890048	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:39:04,875	module: basehttp            	process: 941033	thread: 140405267240512	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44106
+INFO	2024-02-03 11:39:04,890	module: basehttp            	process: 941033	thread: 140405267240512	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:39:17,827	module: basehttp            	process: 941033	thread: 140405267240512	message: "POST /admin/third_sem/post/ HTTP/1.1" 302 0
+INFO	2024-02-03 11:39:17,890	module: basehttp            	process: 941033	thread: 140405267240512	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44074
+INFO	2024-02-03 11:39:17,905	module: basehttp            	process: 941033	thread: 140405267240512	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:39:37,479	module: autoreload          	process: 941033	thread: 140405317890048	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:39:37,794	module: autoreload          	process: 945724	thread: 140556721352704	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:39:40,605	module: basehttp            	process: 945724	thread: 140556670535232	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44074
+INFO	2024-02-03 11:39:40,631	module: basehttp            	process: 945724	thread: 140556670535232	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:40:25,704	module: autoreload          	process: 945724	thread: 140556721352704	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 11:40:26,030	module: autoreload          	process: 950427	thread: 140086250192896	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:50:09,359	module: basehttp            	process: 950427	thread: 140086129718848	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44074
+INFO	2024-02-03 11:50:09,374	module: basehttp            	process: 950427	thread: 140086129718848	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 11:50:13,156	module: basehttp            	process: 950427	thread: 140086129718848	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 11:50:28,158	module: basehttp            	process: 950427	thread: 140086129718848	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-03 11:50:29,202	module: basehttp            	process: 950427	thread: 140086129718848	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 11:50:29,227	module: basehttp            	process: 950427	thread: 140086129718848	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-03 11:50:35,454	module: basehttp            	process: 950427	thread: 140086129718848	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 11:50:35,495	module: basehttp            	process: 950427	thread: 140086129718848	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 11:53:27,077	module: autoreload          	process: 950427	thread: 140086250192896	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-03 11:53:27,398	module: autoreload          	process: 1037221	thread: 139942160588800	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:54:08,116	module: autoreload          	process: 1037221	thread: 139942160588800	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-03 11:54:08,445	module: autoreload          	process: 1041920	thread: 140369504714752	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:55:10,503	module: autoreload          	process: 1041920	thread: 140369504714752	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-03 11:55:10,822	module: autoreload          	process: 1048970	thread: 139814977323008	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:55:38,343	module: autoreload          	process: 1048970	thread: 139814977323008	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-03 11:55:38,641	module: autoreload          	process: 1053637	thread: 139747760443392	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:56:33,668	module: autoreload          	process: 1053637	thread: 139747760443392	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-03 11:56:34,000	module: autoreload          	process: 1058366	thread: 140231531945984	message: Watching for file changes with StatReloader
+INFO	2024-02-03 11:57:15,838	module: autoreload          	process: 1058366	thread: 140231531945984	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-03 12:00:06,229	module: autoreload          	process: 1081945	thread: 139866578616320	message: Watching for file changes with StatReloader
+INFO	2024-02-03 12:00:10,627	module: basehttp            	process: 1081945	thread: 139866527860288	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-03 12:00:12,633	module: basehttp            	process: 1081945	thread: 139866527860288	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 12:00:12,669	module: basehttp            	process: 1081945	thread: 139866527860288	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-03 12:00:18,518	module: basehttp            	process: 1081945	thread: 139866527860288	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 12:00:18,566	module: basehttp            	process: 1081945	thread: 139866527860288	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 12:02:07,435	module: autoreload          	process: 1081945	thread: 139866578616320	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-03 12:02:07,752	module: autoreload          	process: 1096008	thread: 140560366751744	message: Watching for file changes with StatReloader
+INFO	2024-02-03 12:03:13,832	module: autoreload          	process: 1096008	thread: 140560366751744	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/settings.py changed, reloading.
+INFO	2024-02-03 12:03:14,140	module: autoreload          	process: 1103065	thread: 140072481222656	message: Watching for file changes with StatReloader
+INFO	2024-02-03 12:03:30,736	module: autoreload          	process: 1105406	thread: 140118167375872	message: Watching for file changes with StatReloader
+INFO	2024-02-03 12:03:34,348	module: basehttp            	process: 1105406	thread: 140118116681280	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-03 12:03:35,681	module: basehttp            	process: 1105406	thread: 140118116681280	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 12:03:35,718	module: basehttp            	process: 1105406	thread: 140118116681280	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-03 12:03:45,482	module: basehttp            	process: 1105406	thread: 140118116681280	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 12:03:45,532	module: basehttp            	process: 1105406	thread: 140118116681280	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 12:07:23,361	module: autoreload          	process: 1131208	thread: 140125133656064	message: Watching for file changes with StatReloader
+INFO	2024-02-03 12:07:26,241	module: basehttp            	process: 1131208	thread: 140125082945088	message: "POST /admin/logout/ HTTP/1.1" 200 3814
+INFO	2024-02-03 12:07:27,521	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 12:07:27,561	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4356
+INFO	2024-02-03 12:07:34,279	module: basehttp            	process: 1131208	thread: 140125082945088	message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO	2024-02-03 12:07:34,323	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 12:11:08,719	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 12:11:11,453	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /admin/third_sem/author/ HTTP/1.1" 200 18666
+INFO	2024-02-03 12:11:11,469	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING	2024-02-03 12:11:13,819	module: log                 	process: 1131208	thread: 140125082945088	message: Not Found: /
+WARNING	2024-02-03 12:11:13,820	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET / HTTP/1.1" 404 2502
+WARNING	2024-02-03 12:11:24,981	module: log                 	process: 1131208	thread: 140125082945088	message: Not Found: /third_sem/about/
+WARNING	2024-02-03 12:11:24,982	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /third_sem/about/ HTTP/1.1" 404 4025
+WARNING	2024-02-03 12:11:31,873	module: log                 	process: 1131208	thread: 140125082945088	message: Not Found: /third_sem/coin/
+WARNING	2024-02-03 12:11:31,874	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /third_sem/coin/ HTTP/1.1" 404 4022
+WARNING	2024-02-03 12:11:32,858	module: log                 	process: 1131208	thread: 140125082945088	message: Not Found: /third_sem/coin/
+WARNING	2024-02-03 12:11:32,859	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /third_sem/coin/ HTTP/1.1" 404 4022
+INFO	2024-02-03 12:11:38,312	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /third_sem/coin/1 HTTP/1.1" 200 219
+INFO	2024-02-03 12:11:42,289	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /third_sem/coin/5 HTTP/1.1" 200 319
+WARNING	2024-02-03 12:11:46,712	module: log                 	process: 1131208	thread: 140125082945088	message: Not Found: /third_sem/coin/
+WARNING	2024-02-03 12:11:46,713	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /third_sem/coin/ HTTP/1.1" 404 4022
+WARNING	2024-02-03 12:11:48,261	module: log                 	process: 1131208	thread: 140125082945088	message: Not Found: /third_sem/
+WARNING	2024-02-03 12:11:48,261	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /third_sem/ HTTP/1.1" 404 4007
+INFO	2024-02-03 12:11:52,335	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 12:16:37,913	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /admin/third_sem/coin/ HTTP/1.1" 200 8557
+INFO	2024-02-03 12:16:37,930	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 12:16:46,526	module: basehttp            	process: 1131208	thread: 140125082945088	message: "GET /admin/ HTTP/1.1" 200 11283
+INFO	2024-02-03 12:38:38,272	module: autoreload          	process: 1131208	thread: 140125133656064	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 12:38:38,601	module: autoreload          	process: 1351551	thread: 140263222013952	message: Watching for file changes with StatReloader
+INFO	2024-02-03 12:39:05,208	module: basehttp            	process: 1351551	thread: 140263095793216	message: "GET /admin/third_sem/author/ HTTP/1.1" 200 18666
+INFO	2024-02-03 12:39:05,229	module: basehttp            	process: 1351551	thread: 140263095793216	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 12:39:12,854	module: basehttp            	process: 1351551	thread: 140263095793216	message: "GET /admin/third_sem/post/ HTTP/1.1" 200 44074
+INFO	2024-02-03 12:39:12,868	module: basehttp            	process: 1351551	thread: 140263095793216	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 12:39:17,256	module: basehttp            	process: 1351551	thread: 140263095793216	message: "GET /admin/third_sem/author/ HTTP/1.1" 200 18666
+INFO	2024-02-03 12:39:17,268	module: basehttp            	process: 1351551	thread: 140263095793216	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 12:47:18,147	module: autoreload          	process: 1351551	thread: 140263222013952	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 12:47:18,485	module: autoreload          	process: 1414985	thread: 140049220976640	message: Watching for file changes with StatReloader
+INFO	2024-02-03 12:49:00,960	module: autoreload          	process: 1427668	thread: 140218291953664	message: Watching for file changes with StatReloader
+INFO	2024-02-03 12:49:05,203	module: basehttp            	process: 1427668	thread: 140218241103424	message: "GET /admin/ HTTP/1.1" 200 11735
+INFO	2024-02-03 12:49:09,874	module: basehttp            	process: 1427668	thread: 140218241103424	message: "GET /admin/third_sem/client/ HTTP/1.1" 200 22661
+INFO	2024-02-03 12:49:09,888	module: basehttp            	process: 1427668	thread: 140218241103424	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 12:58:29,096	module: autoreload          	process: 1496282	thread: 139875318247424	message: Watching for file changes with StatReloader
+INFO	2024-02-03 12:58:31,725	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/third_sem/client/ HTTP/1.1" 200 22974
+INFO	2024-02-03 12:58:31,739	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 12:58:34,192	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/third_sem/ HTTP/1.1" 200 7228
+INFO	2024-02-03 12:58:37,893	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/ HTTP/1.1" 200 12192
+INFO	2024-02-03 12:58:40,315	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/third_sem/product/ HTTP/1.1" 200 21225
+INFO	2024-02-03 12:58:40,326	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 12:58:43,249	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/third_sem/product/ HTTP/1.1" 200 21225
+INFO	2024-02-03 12:58:43,262	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 12:59:02,291	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/third_sem/product/?q=1 HTTP/1.1" 200 16616
+INFO	2024-02-03 12:59:02,303	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 12:59:09,276	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/third_sem/product/?q= HTTP/1.1" 200 21816
+INFO	2024-02-03 12:59:09,290	module: basehttp            	process: 1496282	thread: 139875267528256	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 13:08:35,269	module: autoreload          	process: 1569852	thread: 139874328915968	message: Watching for file changes with StatReloader
+INFO	2024-02-03 13:10:23,736	module: autoreload          	process: 1569852	thread: 139874328915968	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 13:10:24,069	module: autoreload          	process: 1582586	thread: 140574144909312	message: Watching for file changes with StatReloader
+INFO	2024-02-03 13:10:30,809	module: autoreload          	process: 1585093	thread: 140328805650432	message: Watching for file changes with StatReloader
+INFO	2024-02-03 13:11:11,519	module: autoreload          	process: 1585093	thread: 140328805650432	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 13:11:11,808	module: autoreload          	process: 1587662	thread: 139690863267840	message: Watching for file changes with StatReloader
+INFO	2024-02-03 13:11:14,085	module: basehttp            	process: 1587662	thread: 139690812487232	message: "GET /admin/ HTTP/1.1" 200 12639
+INFO	2024-02-03 13:11:16,230	module: basehttp            	process: 1587662	thread: 139690812487232	message: "GET /admin/third_sem/order/ HTTP/1.1" 200 23592
+INFO	2024-02-03 13:11:16,246	module: basehttp            	process: 1587662	thread: 139690812487232	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR	2024-02-03 13:11:24,057	module: log                 	process: 1587662	thread: 139690812487232	message: Internal Server Error: /admin/third_sem/order/1/change/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 835, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/models.py", line 651, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/models.py", line 309, in __new__
+    fields = fields_for_model(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/models.py", line 204, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'order_date' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1944, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1837, in _changeform_view
+    ModelForm = self.get_form(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 837, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'order_date' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+ERROR	2024-02-03 13:11:24,059	module: basehttp            	process: 1587662	thread: 139690812487232	message: "GET /admin/third_sem/order/1/change/ HTTP/1.1" 500 155511
+INFO	2024-02-03 13:12:53,432	module: autoreload          	process: 1587662	thread: 139690863267840	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 13:12:53,757	module: autoreload          	process: 1600334	thread: 139940936364032	message: Watching for file changes with StatReloader
+ERROR	2024-02-03 13:12:56,035	module: log                 	process: 1600334	thread: 139940885595712	message: Internal Server Error: /admin/third_sem/order/1/change/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 835, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/models.py", line 651, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/models.py", line 309, in __new__
+    fields = fields_for_model(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/forms/models.py", line 204, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'order_date' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1944, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1837, in _changeform_view
+    ModelForm = self.get_form(
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 837, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'order_date' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+ERROR	2024-02-03 13:12:56,037	module: basehttp            	process: 1600334	thread: 139940885595712	message: "GET /admin/third_sem/order/1/change/ HTTP/1.1" 500 155648
+INFO	2024-02-03 13:14:15,036	module: autoreload          	process: 1600334	thread: 139940936364032	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 13:14:15,360	module: autoreload          	process: 1610466	thread: 139830503956480	message: Watching for file changes with StatReloader
+INFO	2024-02-03 13:14:17,849	module: basehttp            	process: 1610466	thread: 139830377838144	message: "GET /admin/third_sem/order/1/change/ HTTP/1.1" 200 17759
+INFO	2024-02-03 13:14:17,867	module: basehttp            	process: 1610466	thread: 139830377838144	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 13:14:21,525	module: basehttp            	process: 1610466	thread: 139830377838144	message: "GET /admin/third_sem/order/ HTTP/1.1" 200 23592
+INFO	2024-02-03 13:14:22,746	module: basehttp            	process: 1610466	thread: 139830377838144	message: "GET /admin/third_sem/order/2/change/ HTTP/1.1" 200 17759
+INFO	2024-02-03 13:14:22,759	module: basehttp            	process: 1610466	thread: 139830377838144	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO	2024-02-03 13:15:32,740	module: autoreload          	process: 1610466	thread: 139830503956480	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
+INFO	2024-02-03 13:15:33,035	module: autoreload          	process: 1620569	thread: 140355226529792	message: Watching for file changes with StatReloader
