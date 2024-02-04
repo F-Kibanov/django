@@ -23,4 +23,7 @@ urlpatterns = [
     path('second_sem', include('second_sem.urls')),
     path('third_sem', include('third_sem.urls')),
     path('fourth_sem', include('fourth_sem.urls')),
+    path('', include('sixth_sem.urls')),
+    path('sixth_sem', include('sixth_sem.urls')),
+    path('__debug__/', include('debug_toolbar.urls')),
 ]

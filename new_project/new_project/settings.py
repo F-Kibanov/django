@@ -21,14 +21,23 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-%sr9kp=g0h9m65286oy@-mol)^eb$!@zjvbn2ejbcu-p0agz32'
+# SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '0.0.0.0.',
+    '0.0.0.0',
+    '127.0.0.1',
+    'sem6deploy.pythonanywhere.com',
+]
+
+INTERNAL_IPS = [
     '127.0.0.1',
 ]
+
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 # Application definition
 
@@ -44,9 +53,12 @@ INSTALLED_APPS = [
     'third_sem',
     'fourth_sem',
     'fifth_sem',
+    'sixth_sem',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',  # debug toolbar middleware
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -126,11 +138,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "additional_static"), ]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = BASE_DIR / 'static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "additional_static"), ]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

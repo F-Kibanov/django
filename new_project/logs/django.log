@@ -4719,3 +4719,211 @@ INFO	2024-02-03 13:14:22,746	module: basehttp            	process: 1610466	threa
 INFO	2024-02-03 13:14:22,759	module: basehttp            	process: 1610466	thread: 139830377838144	message: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO	2024-02-03 13:15:32,740	module: autoreload          	process: 1610466	thread: 139830503956480	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/fifth_sem/admin.py changed, reloading.
 INFO	2024-02-03 13:15:33,035	module: autoreload          	process: 1620569	thread: 140355226529792	message: Watching for file changes with StatReloader
+INFO	2024-02-04 16:25:45,699	module: autoreload          	process: 1981709	thread: 140074375028736	message: Watching for file changes with StatReloader
+INFO	2024-02-04 16:25:59,728	module: basehttp            	process: 1981709	thread: 140074243057216	message: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO	2024-02-04 16:25:59,728	module: basehttp            	process: 1981709	thread: 140074251449920	message: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO	2024-02-04 16:25:59,736	module: basehttp            	process: 1981709	thread: 140074243057216	message: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO	2024-02-04 16:25:59,743	module: basehttp            	process: 1981709	thread: 140074251449920	message: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+ERROR	2024-02-04 16:26:02,198	module: log                 	process: 1981709	thread: 140074251449920	message: Internal Server Error: /les6/db/
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/debug_toolbar/middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/debug_toolbar/toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 325, in render
+    return nodelist.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR	2024-02-04 16:26:02,200	module: basehttp            	process: 1981709	thread: 140074251449920	message: "GET /les6/db/ HTTP/1.1" 500 141544
+ERROR	2024-02-04 16:26:14,742	module: log                 	process: 1981709	thread: 140074243057216	message: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/debug_toolbar/middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/debug_toolbar/toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 325, in render
+    return nodelist.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/user/Learning_python/22. Фреймворк Django/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR	2024-02-04 16:26:14,743	module: basehttp            	process: 1981709	thread: 140074243057216	message: "GET / HTTP/1.1" 500 141335
+INFO	2024-02-04 16:28:21,083	module: autoreload          	process: 1981709	thread: 140074375028736	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/urls.py changed, reloading.
+INFO	2024-02-04 16:28:21,475	module: autoreload          	process: 1992288	thread: 140366655397888	message: Watching for file changes with StatReloader
+WARNING	2024-02-04 16:28:23,913	module: log                 	process: 1992288	thread: 140366602503744	message: Not Found: /
+WARNING	2024-02-04 16:28:23,914	module: basehttp            	process: 1992288	thread: 140366602503744	message: "GET / HTTP/1.1" 404 13214
+INFO	2024-02-04 16:28:34,661	module: views               	process: 1992288	thread: 140366602503744	message: Function dice was called
+INFO	2024-02-04 16:28:34,662	module: views               	process: 1992288	thread: 140366602503744	message: Function dice returns 4
+INFO	2024-02-04 16:28:34,687	module: basehttp            	process: 1992288	thread: 140366602503744	message: "GET /first_sem/dice/ HTTP/1.1" 200 12
+WARNING	2024-02-04 16:28:42,466	module: log                 	process: 1992288	thread: 140366602503744	message: Not Found: /
+WARNING	2024-02-04 16:28:42,466	module: basehttp            	process: 1992288	thread: 140366602503744	message: "GET / HTTP/1.1" 404 13214
+INFO	2024-02-04 16:28:52,611	module: basehttp            	process: 1992288	thread: 140366602503744	message: "GET /second_sem/authors/ HTTP/1.1" 200 2208
+INFO	2024-02-04 16:29:00,139	module: basehttp            	process: 1992288	thread: 140366602503744	message: "GET /admin/ HTTP/1.1" 200 11226
+INFO	2024-02-04 16:29:00,149	module: basehttp            	process: 1992288	thread: 140366594111040	message: "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 304 0
+INFO	2024-02-04 16:29:06,002	module: basehttp            	process: 1992288	thread: 140366594111040	message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 15006
+INFO	2024-02-04 16:29:12,406	module: basehttp            	process: 1992288	thread: 140366594111040	message: "GET /__debug__/render_panel/?store_id=6fc0b51e70ed46f0b78b68bc9f7b8521&panel_id=StaticFilesPanel HTTP/1.1" 200 42577
+WARNING	2024-02-04 16:30:31,306	module: log                 	process: 1992288	thread: 140366594111040	message: Not Found: /
+WARNING	2024-02-04 16:30:31,307	module: basehttp            	process: 1992288	thread: 140366594111040	message: "GET / HTTP/1.1" 404 13214
+INFO	2024-02-04 16:30:39,007	module: views               	process: 1992288	thread: 140366594111040	message: Function dice was called
+INFO	2024-02-04 16:30:39,008	module: views               	process: 1992288	thread: 140366594111040	message: Function dice returns 1
+INFO	2024-02-04 16:30:39,021	module: basehttp            	process: 1992288	thread: 140366594111040	message: "GET /first_sem/dice/ HTTP/1.1" 200 12
+WARNING	2024-02-04 16:30:43,500	module: log                 	process: 1992288	thread: 140366594111040	message: Not Found: /first_sem/
+WARNING	2024-02-04 16:30:43,500	module: basehttp            	process: 1992288	thread: 140366594111040	message: "GET /first_sem/ HTTP/1.1" 404 14406
+INFO	2024-02-04 16:30:52,053	module: views               	process: 1992288	thread: 140366594111040	message: Function hello was called
+INFO	2024-02-04 16:30:52,072	module: basehttp            	process: 1992288	thread: 140366594111040	message: "GET /first_sem/hello/ HTTP/1.1" 200 13
+WARNING	2024-02-04 16:30:57,375	module: log                 	process: 1992288	thread: 140366594111040	message: Not Found: /first_sem/
+WARNING	2024-02-04 16:30:57,375	module: basehttp            	process: 1992288	thread: 140366594111040	message: "GET /first_sem/ HTTP/1.1" 404 14406
+INFO	2024-02-04 16:31:06,601	module: views               	process: 1992288	thread: 140366594111040	message: Function about_me was called
+INFO	2024-02-04 16:31:06,637	module: basehttp            	process: 1992288	thread: 140366594111040	message: "GET /first_sem/about_me/ HTTP/1.1" 200 10815
+INFO	2024-02-04 16:41:49,572	module: autoreload          	process: 1992288	thread: 140366655397888	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/urls.py changed, reloading.
+INFO	2024-02-04 16:41:49,952	module: autoreload          	process: 2048263	thread: 140051522912256	message: Watching for file changes with StatReloader
+INFO	2024-02-04 16:41:54,140	module: views               	process: 2048263	thread: 140051469997632	message: Function about_me was called
+INFO	2024-02-04 16:41:54,178	module: basehttp            	process: 2048263	thread: 140051469997632	message: "GET /first_sem/about_me/ HTTP/1.1" 200 10815
+WARNING	2024-02-04 16:42:00,134	module: log                 	process: 2048263	thread: 140051469997632	message: Not Found: /
+WARNING	2024-02-04 16:42:00,134	module: basehttp            	process: 2048263	thread: 140051469997632	message: "GET / HTTP/1.1" 404 13323
+WARNING	2024-02-04 16:42:13,663	module: log                 	process: 2048263	thread: 140051469997632	message: Not Found: /
+WARNING	2024-02-04 16:42:13,664	module: basehttp            	process: 2048263	thread: 140051469997632	message: "GET / HTTP/1.1" 404 13323
+INFO	2024-02-04 16:42:21,886	module: autoreload          	process: 2048263	thread: 140051522912256	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/sixth_sem/urls.py changed, reloading.
+INFO	2024-02-04 16:42:22,232	module: autoreload          	process: 2049713	thread: 140126231232512	message: Watching for file changes with StatReloader
+WARNING	2024-02-04 16:42:25,086	module: log                 	process: 2049713	thread: 140126178375232	message: Not Found: /
+WARNING	2024-02-04 16:42:25,087	module: basehttp            	process: 2049713	thread: 140126178375232	message: "GET / HTTP/1.1" 404 13323
+INFO	2024-02-04 16:42:31,706	module: autoreload          	process: 2049713	thread: 140126231232512	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/sixth_sem/urls.py changed, reloading.
+INFO	2024-02-04 16:42:32,098	module: autoreload          	process: 2051114	thread: 140019048833024	message: Watching for file changes with StatReloader
+WARNING	2024-02-04 16:42:33,107	module: log                 	process: 2051114	thread: 140018996971072	message: Not Found: /
+WARNING	2024-02-04 16:42:33,108	module: basehttp            	process: 2051114	thread: 140018996971072	message: "GET / HTTP/1.1" 404 13323
+WARNING	2024-02-04 16:42:33,884	module: log                 	process: 2051114	thread: 140018996971072	message: Not Found: /
+WARNING	2024-02-04 16:42:33,884	module: basehttp            	process: 2051114	thread: 140018996971072	message: "GET / HTTP/1.1" 404 13323
+INFO	2024-02-04 16:45:33,825	module: autoreload          	process: 2051114	thread: 140019048833024	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/urls.py changed, reloading.
+INFO	2024-02-04 16:45:34,141	module: autoreload          	process: 2062565	thread: 140355375038464	message: Watching for file changes with StatReloader
+INFO	2024-02-04 16:45:35,349	module: autoreload          	process: 2062565	thread: 140355375038464	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/sixth_sem/views.py changed, reloading.
+INFO	2024-02-04 16:45:35,668	module: autoreload          	process: 2062570	thread: 139718037557248	message: Watching for file changes with StatReloader
+INFO	2024-02-04 16:45:37,506	module: basehttp            	process: 2062570	thread: 139717984728640	message: "GET / HTTP/1.1" 200 10875
+INFO	2024-02-04 16:45:58,430	module: autoreload          	process: 2062570	thread: 139718037557248	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/new_project/urls.py changed, reloading.
+INFO	2024-02-04 16:45:58,763	module: autoreload          	process: 2064010	thread: 139908978683904	message: Watching for file changes with StatReloader
+WARNING	2024-02-04 16:46:00,854	module: log                 	process: 2064010	thread: 139908925888064	message: Not Found: /
+WARNING	2024-02-04 16:46:00,856	module: basehttp            	process: 2064010	thread: 139908925888064	message: "GET / HTTP/1.1" 404 13323
+INFO	2024-02-04 16:46:14,295	module: autoreload          	process: 2064010	thread: 139908978683904	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/sixth_sem/urls.py changed, reloading.
+INFO	2024-02-04 16:46:14,703	module: autoreload          	process: 2065429	thread: 139669544902656	message: Watching for file changes with StatReloader
+WARNING	2024-02-04 16:46:15,548	module: log                 	process: 2065429	thread: 139669493089856	message: Not Found: /
+WARNING	2024-02-04 16:46:15,549	module: basehttp            	process: 2065429	thread: 139669493089856	message: "GET / HTTP/1.1" 404 13323
+WARNING	2024-02-04 16:46:17,866	module: log                 	process: 2065429	thread: 139669493089856	message: Not Found: /
+WARNING	2024-02-04 16:46:17,866	module: basehttp            	process: 2065429	thread: 139669493089856	message: "GET / HTTP/1.1" 404 13323
+WARNING	2024-02-04 16:46:18,710	module: log                 	process: 2065429	thread: 139669493089856	message: Not Found: /
+WARNING	2024-02-04 16:46:18,711	module: basehttp            	process: 2065429	thread: 139669493089856	message: "GET / HTTP/1.1" 404 13323
+WARNING	2024-02-04 16:46:19,343	module: log                 	process: 2065429	thread: 139669493089856	message: Not Found: /
+WARNING	2024-02-04 16:46:19,343	module: basehttp            	process: 2065429	thread: 139669493089856	message: "GET / HTTP/1.1" 404 13323
+INFO	2024-02-04 16:46:53,674	module: autoreload          	process: 2065429	thread: 139669544902656	message: /home/user/Learning_python/22. Фреймворк Django/seminars/new_project/new_project/sixth_sem/urls.py changed, reloading.
+INFO	2024-02-04 16:46:54,040	module: autoreload          	process: 2068257	thread: 140148873060352	message: Watching for file changes with StatReloader
+INFO	2024-02-04 16:46:55,532	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET / HTTP/1.1" 200 10875
+INFO	2024-02-04 16:47:57,314	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET / HTTP/1.1" 200 10875
+INFO	2024-02-04 16:48:45,422	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET / HTTP/1.1" 200 10884
+INFO	2024-02-04 16:49:46,032	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET / HTTP/1.1" 200 10884
+INFO	2024-02-04 16:49:47,309	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET / HTTP/1.1" 200 10874
+INFO	2024-02-04 16:50:28,794	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET / HTTP/1.1" 200 10874
+INFO	2024-02-04 16:50:30,278	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET / HTTP/1.1" 200 10869
+INFO	2024-02-04 16:50:55,722	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET / HTTP/1.1" 200 10869
+INFO	2024-02-04 16:50:56,602	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET / HTTP/1.1" 200 10876
+INFO	2024-02-04 16:51:10,732	module: views               	process: 2068257	thread: 140148820129344	message: Function dice was called
+INFO	2024-02-04 16:51:10,733	module: views               	process: 2068257	thread: 140148820129344	message: Function dice returns 6
+INFO	2024-02-04 16:51:10,747	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /first_sem/dice/ HTTP/1.1" 200 12
+INFO	2024-02-04 16:51:36,122	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET / HTTP/1.1" 200 10876
+INFO	2024-02-04 16:53:44,502	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=f837092383284894837f304f39546247&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO	2024-02-04 16:53:46,377	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=f837092383284894837f304f39546247&panel_id=StaticFilesPanel HTTP/1.1" 200 40211
+INFO	2024-02-04 16:53:51,200	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=f837092383284894837f304f39546247&panel_id=TemplatesPanel HTTP/1.1" 200 5988
+INFO	2024-02-04 16:53:54,517	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=f837092383284894837f304f39546247&panel_id=CachePanel HTTP/1.1" 200 1737
+WARNING	2024-02-04 16:54:16,402	module: log                 	process: 2068257	thread: 140148820129344	message: Not Found: /games/
+WARNING	2024-02-04 16:54:16,403	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /games/ HTTP/1.1" 404 13526
+INFO	2024-02-04 16:54:42,967	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /fourth_sem/games/ HTTP/1.1" 200 11472
+INFO	2024-02-04 16:54:59,615	module: views               	process: 2068257	thread: 140148820129344	message: Game: game_type='C', Throws: throw_number=8
+INFO	2024-02-04 16:54:59,657	module: basehttp            	process: 2068257	thread: 140148820129344	message: "POST /fourth_sem/games/ HTTP/1.1" 200 11054
+INFO	2024-02-04 16:55:03,589	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=7cebe9c54e3848efba89253323724b99&panel_id=RequestPanel HTTP/1.1" 200 2641
+INFO	2024-02-04 16:55:10,138	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=7cebe9c54e3848efba89253323724b99&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO	2024-02-04 16:55:11,843	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=7cebe9c54e3848efba89253323724b99&panel_id=StaticFilesPanel HTTP/1.1" 200 40211
+INFO	2024-02-04 16:55:13,085	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=7cebe9c54e3848efba89253323724b99&panel_id=TemplatesPanel HTTP/1.1" 200 8367
+INFO	2024-02-04 16:55:27,077	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=7cebe9c54e3848efba89253323724b99&panel_id=HistoryPanel HTTP/1.1" 200 24305
+INFO	2024-02-04 16:55:27,083	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO	2024-02-04 16:55:54,405	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /fourth_sem/games/ HTTP/1.1" 200 11472
+INFO	2024-02-04 16:55:58,577	module: views               	process: 2068257	thread: 140148820129344	message: Game: game_type='D', Throws: throw_number=8
+INFO	2024-02-04 16:55:58,616	module: basehttp            	process: 2068257	thread: 140148820129344	message: "POST /fourth_sem/games/ HTTP/1.1" 200 11025
+INFO	2024-02-04 16:56:03,802	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /fourth_sem/games/ HTTP/1.1" 200 11472
+INFO	2024-02-04 16:56:09,319	module: views               	process: 2068257	thread: 140148820129344	message: Game: game_type='H', Throws: throw_number=8
+INFO	2024-02-04 16:56:09,343	module: basehttp            	process: 2068257	thread: 140148820129344	message: "POST /fourth_sem/games/ HTTP/1.1" 200 11056
+INFO	2024-02-04 16:56:27,933	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=b1e535ea412541d99fbc538c45f191d3&panel_id=HistoryPanel HTTP/1.1" 200 31915
+INFO	2024-02-04 16:57:14,002	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=b1e535ea412541d99fbc538c45f191d3&panel_id=SignalsPanel HTTP/1.1" 200 2320
+INFO	2024-02-04 16:57:20,092	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /fourth_sem/games/ HTTP/1.1" 200 11472
+WARNING	2024-02-04 16:57:39,838	module: log                 	process: 2068257	thread: 140148820129344	message: Not Found: /first_sem/
+WARNING	2024-02-04 16:57:39,839	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /first_sem/ HTTP/1.1" 404 14676
+WARNING	2024-02-04 16:58:13,543	module: log                 	process: 2068257	thread: 140148820129344	message: Not Found: /fourth_sem/
+WARNING	2024-02-04 16:58:13,543	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /fourth_sem/ HTTP/1.1" 404 14172
+WARNING	2024-02-04 16:58:34,395	module: log                 	process: 2068257	thread: 140148820129344	message: Not Found: /third_sem/
+WARNING	2024-02-04 16:58:34,395	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /third_sem/ HTTP/1.1" 404 14999
+INFO	2024-02-04 16:58:44,695	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /third_sem/author/ HTTP/1.1" 200 592
+INFO	2024-02-04 16:59:58,013	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=d085733c4d97490eb24553d902dce443&panel_id=HistoryPanel HTTP/1.1" 200 40150
+INFO	2024-02-04 17:00:33,430	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /__debug__/render_panel/?store_id=d085733c4d97490eb24553d902dce443&panel_id=SignalsPanel HTTP/1.1" 200 2320
+WARNING	2024-02-04 17:00:46,408	module: log                 	process: 2068257	thread: 140148820129344	message: Not Found: /third_sem/
+WARNING	2024-02-04 17:00:46,408	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /third_sem/ HTTP/1.1" 404 14999
+INFO	2024-02-04 17:01:20,337	module: basehttp            	process: 2068257	thread: 140148820129344	message: "GET /fourth_sem/games/ HTTP/1.1" 200 11472
+INFO	2024-02-04 17:01:34,171	module: views               	process: 2068257	thread: 140148820129344	message: Game: game_type='C', Throws: throw_number=17
+INFO	2024-02-04 17:01:34,196	module: basehttp            	process: 2068257	thread: 140148820129344	message: "POST /fourth_sem/games/ HTTP/1.1" 200 11279

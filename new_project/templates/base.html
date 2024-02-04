@@ -2,12 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Сайт{% endblock %}</title>
+    <title>{% block title %}{{ title }}{% endblock %}</title>
 </head>
 <body>
     {% block content %}
-        <p>Скоро тут появится текст...</p>
-    {% endblock %}
-<footer>Базовый шаблон проекта</footer>
+        <h3>{{ content }}</h3>
+    {% endblock %}<br><br><br>
+<footer><p>{{ title }}</p></footer>
 </body>
 </html>
